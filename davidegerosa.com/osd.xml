@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Davide Gerosa</ShortName>
+	<Description>Search Davide Gerosa - DAMTP, University of Cambridge</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://davidegerosa.com/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="https://davidegerosa.com/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="https://davidegerosa.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>Davide Gerosa</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://secure.gravatar.com/blavatar/4b7008722f798ccc0f2a3d0b64b795d1?s=16&#038;d=https%3A%2F%2Fdavidegerosa.com%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/jpeg">https://secure.gravatar.com/blavatar/4b7008722f798ccc0f2a3d0b64b795d1?s=64&#038;d=https%3A%2F%2Fs-ssl.wordpress.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://davidegerosa.com</moz:SearchForm>
+</OpenSearchDescription>
