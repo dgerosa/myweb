@@ -1,20 +1,32 @@
+# This file was generated on Fri, 20 Nov 2015 05:11:36 +0000
 # If you are regularly crawling WordPress.com sites, please use our firehose to receive real-time push updates instead.
-# Please see https://developer.wordpress.com/docs/firehose/ for more details.
+# Please see http://en.wordpress.com/firehose/ for more details.
 
-Sitemap: https://davidegerosa.com/sitemap.xml
-Sitemap: https://davidegerosa.com/news-sitemap.xml
-
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-Disallow: /wp-login.php
-Disallow: /activate/ # har har
-Disallow: /cgi-bin/ # MT refugees
-Disallow: /mshots/v1/
-Disallow: /next/
-Disallow: /public.api/
+Sitemap: http://davidegerosa.com/sitemap.xml
+Sitemap: http://davidegerosa.com/news-sitemap.xml
 
 User-agent: IRLbot
 Crawl-delay: 3600
 
-# This file was generated on Thu, 16 Jun 2016 13:45:41 +0000
+User-agent: *
+Disallow: /next/
+
+User-agent: *
+Disallow: /mshots/v1/
+
+# har har
+User-agent: *
+Disallow: /activate/
+
+User-agent: *
+Disallow: /public.api/
+
+# MT refugees
+User-agent: *
+Disallow: /cgi-bin/
+
+User-agent: *
+Disallow: /wp-login.php
+
+User-agent: *
+Disallow: /wp-admin/
