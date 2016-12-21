@@ -11,7 +11,7 @@
 <script src="https://s0.wp.com/wp-content/themes/pub/yoko/js/css3-mediaqueries.js" type="text/javascript"></script>
 <![endif]-->
 <meta name="google-site-verification" content="20Chlnns2ec7vTqAKQer21fK5DKamALuoNd7Ciw2WdQ" />
-		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1482169453&amp;back=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F' type="text/javascript"></script>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1482289510&amp;back=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F' type="text/javascript"></script>
 		<script type="text/javascript">
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
@@ -78,7 +78,7 @@ img.emoji {
 <meta property="og:url" content="https://davidegerosa.com/installpython/" />
 <meta property="og:description" content="Python is cool, especially if you a scientist. All sort of scientific algorithms are already there (written and debugged!), you just have to use them. This is a step-by-step guide to the best way I…" />
 <meta property="article:published_time" content="2016-03-01T11:09:32+00:00" />
-<meta property="article:modified_time" content="2016-11-02T05:02:37+00:00" />
+<meta property="article:modified_time" content="2016-12-21T03:03:12+00:00" />
 <meta property="og:site_name" content="Davide Gerosa" />
 <meta property="og:image" content="https://davidegerosa.files.wordpress.com/2015/04/construction.png?w=1200" />
 <meta property="og:image:width" content="1200" />
@@ -138,7 +138,7 @@ img.emoji {
 			}
 		</style>
 		<meta name="application-name" content="Davide Gerosa" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Caltech" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://davidegerosa.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/4b7008722f798ccc0f2a3d0b64b795d1?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="The best way to install&nbsp;Python | Davide Gerosa on WordPress.com" />
-<meta name="description" content="Python is cool, especially if you a scientist. All sort of scientific algorithms are already there (written and debugged!), you just have to use them. This is a step-by-step guide to the best way I found to install and use python for science, somehow taken from this stack overflow question. Instructions here are given for mac OSX  but&hellip;" />
+<meta name="description" content="Python is cool, especially if you a scientist. All sort of scientific algorithms are already there (written and debugged!), you just have to use them. This is a step-by-step guide to the best way I found to install and use python for science, the easy (less hackable) way comes first, and the long way comes next.&hellip;" />
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-color: #FFFFFF; }
 </style>
@@ -186,52 +186,19 @@ body.custom-background { background-color: #FFFFFF; }
 
 	<div class="single-entry-content">
 		<p style="text-align:justify;">Python is cool, especially if you a scientist. All sort of scientific algorithms are already there (written and debugged!), you just have to use them.</p>
-<p style="text-align:justify;">This is a step-by-step guide to the best way I found to install and use python for science, somehow taken from this <a title="stackoverflow.com" href="https://stackoverflow.com/questions/5506110/is-it-possible-to-install-another-version-of-python-to-virtualenv/5507373#5507373?newreg=78941aae422b4ddb9ed6ff43ebc2a0c4">stack overflow</a> question. Instructions here are given for mac OSX  but can be easily generalized to any unix system (e.g. replacing curl with wget and so on&#8230;). I will also stay with python 2, as everything still works (see <a href="https://wiki.python.org/moin/Python2orPython3" target="_blank">here</a> for more information on the issue).</p>
-<h3>Local is better: install a new python distribution</h3>
-<p style="text-align:justify;">Most (if not all) unix systems already come with a python distribution installed. However, it is advisable to install a local distribution and do your scientific stuff from there&#8230; If you screw something up, you can just delete everything and your OS is safe.</p>
-<p>First, go to  <a href="https://www.python.org/ftp/python/" target="_blank">this URL</a>:</p>
-<pre>https://www.python.org/ftp/python/</pre>
-<p>and check what is the latest version of python 2. At the time of writing, this is 2.7.10, change the following lines if you want a different version. I am going to assume you want to put your new python distribution in a directory called &#8220;localpython&#8221; in your home directory</p>
-<pre>cd
-mkdir localpython
-cd localpython
-curl  https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz &gt; Python-2.7.10.tgz
-tar -zxvf Python-2.7.10.tgz
-cd Python-2.7.10
-
-# "make clean" may be necessary here for earlier versions
-./configure --prefix=${HOME}/localpython
-make
-make install
+<p style="text-align:justify;">This is a step-by-step guide to the best way I found to install and use python for science, the easy (less hackable) way comes first, and the long way comes next.</p>
+<h3>The easy way on mac: homebrew</h3>
+<p style="text-align:justify;">Most (if not all) unix systems already come with a python distribution installed. However, it is advisable to install a local distribution and do your scientific stuff from there&#8230; If you screw something up, you can just delete everything and your OS is safe. I will also stay with python 2, as everything still works (see <a href="https://wiki.python.org/moin/Python2orPython3" target="_blank">here</a> for more information on the issue).</p>
+<p style="text-align:justify;">The easiest way to safely install python on a MAC is <a href="http://homebrew" target="_blank">homebrew</a>. Homebrew installs a new version of python (by default the latest 2.x version available) and set is as default.</p>
+<pre>brew install python</pre>
+<p style="text-align:justify;">Next, we want a virtualenv. Python&#8217;s virtual environments are kind of separate boxes, where you can install modules and packages locally. You can have different boxes for different projects, or a single box for all your python stuff. Again, if you screw something up, you can just delete the box and start again. Now type</p>
+<pre>pip install virtualenv
+virtualenv ~/box</pre>
+<p>The virtual environment is physically located in ~/box. You have created the box, but you&#8217;re still out of it. To get into the box</p>
+<pre>chmod u+x ${HOME}/box/bin/activate
+source ${HOME}/box/bin/activate
 </pre>
-<p>If, at any time, you need to start again, just</p>
-<pre>rm -rf ${HOME}/localpython</pre>
-<h3>Different boxes: python&#8217;s virtualenv</h3>
-<p style="text-align:justify;">Python&#8217;s virtual environments are kind of separate boxes, where you can install modules and packages locally. You can have different boxes for different projects, or a single box for all your python stuff. Again, if you screw something up, you can just delete the box and start again.</p>
-<p>First, go to<a href="https://pypi.python.org/pypi/virtualenv"> this URL</a>:</p>
-<pre>https://pypi.python.org/pypi/virtualenv</pre>
-<p>and check what is the latest version of virtualenv. At the time of writing, this is 13.1.2, change the following lines if you want a different version.</p>
-<pre>cd ${HOME}/localpython
-curl  https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz &gt; virtualenv-13.1.2.tar.gz
-tar -zxvf virtualenv-13.1.2.tar.gz
-cd virtualenv-13.1.2
-${HOME}/localpython/bin/python setup.py install</pre>
-<h3>In the box: create a virtualenv using your new python distribution</h3>
-<p>Now we create a virtual environments specifying it should run python from our local distribution. Let&#8217;s call our virtual environment &#8220;box&#8221; and place it in localpython</p>
-<pre>cd ${HOME}/localpython 
-${HOME}/localpython/bin/virtualenv box --python=${HOME}/localpython/bin/python</pre>
-<p>If you get an error involving <strong>zlib</strong>, this is likely to be related to an upgrade of the OS: check <a href="http://stackoverflow.com/questions/22761372/brew-install-zlib-throws-an-error-on-osx-mavericks" target="_blank">here</a> for a solution using homebrew. You have created the box, but you&#8217;re still out of it. To get into the box</p>
-<pre>chmod u+x ${HOME}/localpython/box/bin/activate
-source ${HOME}/localpython/box/bin/activate
-</pre>
-<p>Now you&#8217;re in the box, and you should see &#8220;(box)&#8221; close to your username in the terminal. You can test it with</p>
-<pre>which python
-&gt;&gt;&gt;  ${HOME}/localpython/box/bin/python
-</pre>
-<p>If you enter a python console, you should get today&#8217;s date and time (or yesterday&#8217;s if you found these instructions exhausting)</p>
-<pre>python
-&gt;&gt;&gt;  Python 2.7.10 (default, TODAY! )</pre>
-<p>To get out of the box, type</p>
+<p>Now you&#8217;re in the box, and you should see &#8220;(box)&#8221; close to your username in the terminal. To get out of the box, type</p>
 <pre>deactivate</pre>
 <p>and the label &#8220;(box)&#8221; should disappear from your terminal.</p>
 <p>You may want to add this last command in your .bashrc</p>
@@ -240,25 +207,66 @@ echo "alias inthebox='source ${HOME}/localpython/box/bin/activate' " &gt;&gt; ${
 source ${HOME}/.bashrc
 </pre>
 <p>Now type &#8220;inthebox&#8221; and &#8220;deactivate&#8221; to get in and out of your new virtual environment.</p>
+<h3>The hard way (for the PROs)</h3>
+<p style="text-align:justify;">Homebrew is great, but you can of course do the same manually. The procedure below is somehow taken from this <a title="stackoverflow.com" href="https://stackoverflow.com/questions/5506110/is-it-possible-to-install-another-version-of-python-to-virtualenv/5507373#5507373?newreg=78941aae422b4ddb9ed6ff43ebc2a0c4">stack overflow</a> question. Instructions here are given again for mac OSX  but can be easily generalized to any unix system (e.g. replacing curl with wget and so on&#8230;).</p>
+<p>First let&#8217;s install a python distribution. Go to  <a href="https://www.python.org/ftp/python/" target="_blank">this URL</a>:</p>
+<pre>https://www.python.org/ftp/python/</pre>
+<p>and check what is the latest version of python 2. At the time of writing, this is 2.7.13, change the following lines if you want a different version. I am going to assume you want to put your new python distribution in a directory called &#8220;localpython&#8221; in your home directory</p>
+<pre>cd
+mkdir localpython
+cd localpython
+curl  https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz &gt; Python-2.7.10.tgz
+tar -zxvf Python-2.7.13.tgz
+cd Python-2.7.13
+
+# "make clean" may be necessary here for earlier versions
+./configure --prefix=${HOME}/localpython --enable-optimizations
+make
+make install
+</pre>
+<p>If, at any time, you need to start again, just</p>
+<pre>rm -rf ${HOME}/localpython</pre>
+<h3></h3>
+<p>and you should be fine.</p>
+<p>Now, virtualenv. Go to<a href="https://pypi.python.org/pypi/virtualenv"> this URL</a>:</p>
+<pre>https://pypi.python.org/pypi/virtualenv</pre>
+<p>and check what is the latest version of virtualenv. At the time of writing, this is 15.1.0, change the following lines if you want a different version.</p>
+<pre>cd ${HOME}/localpython
+curl  https://pypi.python.org/packages/source/v/virtualenv/virtualenv-15.1.0.tar.gz &gt; virtualenv-15.1.0.tar.gz
+tar -zxvf virtualenv-15.1.0.tar.gz
+cd virtualenv-15.1.0
+${HOME}/localpython/bin/python setup.py install</pre>
+<p>Update: unfortunately pypi.python.org changed their link structure and the link above doesn&#8217;t work anymore. You need to go that webpage with a browser and get the tar.gz manually. At the time of writing, even the virtualenv official documentation has not been updated yet.</p>
+<p>Now we create a virtual environment specifying it should run python from our local distribution. Again, we call our virtual environment &#8220;box&#8221; and place it in localpython</p>
+<pre>cd ${HOME}/localpython 
+${HOME}/localpython/bin/virtualenv box --python=${HOME}/localpython/bin/python</pre>
+<p>If you get an error involving <strong>zlib</strong>, this is likely to be related to an upgrade of the OS: get back to the homebrew solution. If you&#8217;re still alive, type</p>
+<pre>chmod u+x ${HOME}/localpython/box/bin/activate
+source ${HOME}/localpython/box/bin/activate
+</pre>
+<p>You can test everything with</p>
+<pre>which python
+&gt;&gt;&gt;  ${HOME}/localpython/box/bin/python
+</pre>
+<p>If you enter a python console, you should get today&#8217;s date and time (or yesterday&#8217;s if you found these instructions exhausting)</p>
+<pre>python
+&gt;&gt;&gt;  Python 2.7.10 (default, TODAY! )</pre>
+<p>To get out of the box, type</p>
+<pre>deactivate</pre>
+<p>As before, we can add these commands to our .bashrc</p>
+<pre>echo "" &gt;&gt;${HOME}/.bashrc
+echo "alias inthebox='source ${HOME}/localpython/box/bin/activate' " &gt;&gt; ${HOME}/.bashrc
+source ${HOME}/.bashrc
+</pre>
 <h3>Science is fun again: install packages</h3>
 <p>Now you&#8217;re done. Virtualenv comes with pip, the tool to install python modules from the Python Package Index <a href="https://pypi.python.org/pypi" target="_blank">PyPi</a>. From within your box, to install a package type</p>
 <pre>pip install PACKAGE_NAME</pre>
 <p>First of all, upgrade pip itself. It&#8217;s not needed strictly, but my experience is that it may fix issues, especially on mac OS X</p>
 <pre>pip install --upgrade setuptools pip</pre>
 <p>You can try with <a href="http://www.numpy.org" target="_blank">numpy</a>, <a href="http://www.scipy.org" target="_blank">scipy</a>, <a href="http://matplotlib.org" target="_blank">matploltib</a>, and my own <a href="../precession/index.html" target="_blank">precession</a> module to study black holes.</p>
-<h3>Another way</h3>
-<p>Another great way of safely using python on a MAC is <a href="http://homebrew" target="_blank">homebrew</a>. Homebrew installs a new version of python (by default the latest 2.x version available) and set is as default</p>
-<pre>brew install python</pre>
-<p>You can see where it has been installed typing</p>
-<pre>which python
-# for me this is /usr/local/bin/python</pre>
-<p>and then create a virtual environment using that python executable</p>
-<pre>virtualenv box --python=/usr/local/bin/python</pre>
-<p>I honestly prefer the long way explained above, because you know where your distribution and you virtualenv are, and you can delete them safely whenever something goes wrong.</p>
 <h3>Now you can fly</h3>
 <p>Seriously&#8230; just <a href="https://pypi.python.org/pypi/antigravity/0.1" target="_blank">import antigravity</a></p>
 <div data-shortcode="caption" id="attachment_388" style="width: 528px" class="wp-caption aligncenter"><a href="https://xkcd.com/353/" target="_blank"><img class="aligncenter wp-image-388 size-full" src="https://precessiondocstemp.files.wordpress.com/2015/09/python.png?w=820" alt="python"   /></a><p class="wp-caption-text"><small> Credit: <a href="https://xkcd.com/353/" target="_blank">xkcd n. 353</a></small></p></div>
-<p>&nbsp;</p>
 <p><small><strong>Picture</strong>: building tall stuff in Southampton, UK</small></p>
 		<div class="clear"></div>
 					</div><!--end entry-content-->
@@ -277,7 +285,7 @@ source ${HOME}/.bashrc
 
 <div id="tertiary" class="widget-area" role="complementary">
 	<aside id="widget_contact_info-3" class="widget widget_contact_info"><h3 class="widget-title">Contact me:</h3><div class="confit-phone">d.gerosa@caltech.edu</div><div class="confit-hours"> <br/>Davide Gerosa<br/>California Institute of Technology<br/>TAPIR MC 350-17<br/>1200 E California Blvd<br/>Pasadena, CA 91125<br/>USA<br/><br/>Room 340</div></aside><aside id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h3 class="widget-title">Stay tuned&#8230;</h3><ul><li><a title="View gerosadavide&#8217;s profile on LinkedIn" href="https://www.linkedin.com/in/gerosadavide/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View gerosadavide&#8217;s profile on LinkedIn</span></a></li><li><a title="View dgerosa&#8217;s profile on GitHub" href="https://github.com/dgerosa/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View dgerosa&#8217;s profile on GitHub</span></a></li><li><a title="View UC-Hwv-mfD2Ge7XA4fBkn42w&#8217;s profile on YouTube" href="https://www.youtube.com/channel/UC-Hwv-mfD2Ge7XA4fBkn42w/" class="genericon genericon-youtube" target="_blank"><span class="screen-reader-text">View UC-Hwv-mfD2Ge7XA4fBkn42w&#8217;s profile on YouTube</span></a></li></ul></aside><aside id="blog-stats-5" class="widget widget_blog-stats"><h3 class="widget-title">Stats</h3>		<ul>
-			<li>8,603 hits to my website. Cool!</li>
+			<li>8,621 hits to my website. Cool!</li>
 		</ul>
 		</aside><aside id="search-4" class="widget widget_search">
 <form role="search" method="get" class="searchform" action="../index.html" >
@@ -345,7 +353,7 @@ var WPGroHo = {"my_hash":""};
 				<input type="hidden" id="carousel-reblog-post-title" value="" />
 			</div>
 
-			<input type="hidden" id="_wpnonce" name="_wpnonce" value="a481b66a88" /><input type="hidden" name="_wp_http_referer" value="/installpython/" />		</form>
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="dc77259d8f" /><input type="hidden" name="_wp_http_referer" value="/installpython/" />		</form>
 
 		<div class="arrow"></div>
 	</div>
@@ -356,12 +364,12 @@ var WPGroHo = {"my_hash":""};
 <link rel='stylesheet' id='all-css-2-2' href='https://s2.wp.com/wp-content/mu-plugins/genericons/genericons/genericons.css?m=1443615899h' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/4b7008722f798ccc0f2a3d0b64b795d1?s=36' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F","themeURL":"https:\/\/wordpress.com\/themes\/yoko\/","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"1d1d68eaa4","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"17dd3c2842\" \/>","referer":"https:\/\/davidegerosa.com\/installpython\/","canFollow":"","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Finstallpython%2F","postID":"669","shortlink":"http:\/\/wp.me\/P4i5Sk-aN","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/669","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","login":"Log In","signup":"Sign Up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/installpython/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editFollows":"Manage Sites I Follow","editSubs":"Manage Subscriptions","viewReader":"View Site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/installpython/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F\&quot;">Log in now.<\/a>"}};
+var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/4b7008722f798ccc0f2a3d0b64b795d1?s=36' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F","themeURL":"https:\/\/wordpress.com\/themes\/yoko\/","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"eecb81690a","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"b90cc0286f\" \/>","referer":"https:\/\/davidegerosa.com\/installpython\/","canFollow":"","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Finstallpython%2F","postID":"669","shortlink":"http:\/\/wp.me\/P4i5Sk-aN","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/669","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","login":"Log In","signup":"Sign Up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/installpython/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editFollows":"Manage Sites I Follow","editSubs":"Manage Subscriptions","viewReader":"View Site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/installpython/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F\&quot;">Log in now.<\/a>"}};
 /* ]]> */
 </script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"9d34b306b2","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F","blog_id":"63417836","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=63417836&v=wpcom&tz=-8&user_id=0&subd=davidegerosa","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"1e8056e3d6","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Finstallpython%2F","blog_id":"63417836","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=63417836&v=wpcom&tz=-8&user_id=0&subd=davidegerosa","is_public":"1","reblog_enabled":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://s0.wp.com/_static/??-eJx9j+sKwjAMhV/IGgbe/ojPEtuwpWvT2st0b28HTkTEXwknJ99J4B6VDlJICtgMhibWFB9bmzfwMfJVRVd7lgyOR8pwq1RpQDGO0re5DOSbJdYrzGEMC1dw4h4LB/lDRuNZ1BUTeMyFUutUmCglNg331v4R9BKxEN7d6mbRri6cdk2OLL90275K86tsP10/sjSmUDM5sFQi6lGtQtu5+HO3O3X7Y7ffHewT5teFEw=='></script>
@@ -408,7 +416,7 @@ _tkq = window._tkq || [];
 _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'63417836','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'63417836','v':'wpcom','tz':'-8','user_id':'0','post':'669','subd':'davidegerosa'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfkhrRVQmalpxcjN1eWlVcFZ5MTg9azZEYU5QLEU4SHJvd2xBOStTUTNCTD93eURmTXxCdnZaYj9CSXM0bnFHY1dHVi9zbGw4bHpMNl1DWk1nTWJvUk0tbzhSVFNvRkw9VWRXPUxkbVhwQ2lpaFpDRlRxM01DUG9kZGpXLzkuUDBhMjN5SU5uZ1k0P3FQW0t1eWdiVHlLWywuYnFySytlWDQ2TTAycSs0U1ozN0lVTmtoeStRV0FFMms9XThQbkhJbklyL11Cb29UMTNmWWdfZ2RZKyUsVlJBMURwbFhk'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfkhrRVQmalpxcjN1eWlVcFZ5MTg9azZEYU5QLEU4SHJvd2xBOStTUTNCTD93eURmTXxCdnZaeG5VfFp+UE5YVzVJQm1dYlVyJlIwaEJSL21IVl8vJlNzKzJsc1FNSng2YlhwODJSVHFGWHM3eFRsSlNVfm1VdF1SVUUuWmllRkFuQVs/SyZlRWElUkljJXpwVVAxbSZDaGtGcVJ+ZC9hJncyLUFmbFF+QlYlL2ImPzhmMV1vY1tGQUE2LTZKLldfdT9rWlYtOXZCVVtoZ25sRXFjTTAlL2JJd0UwYmVM'}]);
 _stq.push([ 'clickTrackerInit', '63417836', '669' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
