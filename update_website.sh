@@ -23,6 +23,9 @@ wget --convert-links -r "https://${MYWEB}"
 scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
 scp -r $MYWEB/* dgerosa@tapir.caltech.edu:public_html
 
+# Caltech needs 755 permission. Be sure it's there
+ssh dgerosa@tapir.caltech.edu chmod 755 public_html
+
 
 # Store website on github
 git add $MYWEB
