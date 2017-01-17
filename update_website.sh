@@ -13,7 +13,7 @@ MYWEB="davidegerosa.com"
 echo $MYWEB
 
 # Here is my repository
-REPDIR="${HOME}/reps/myweb"
+REPDIR="${HOME}/Documents/reps/myweb"
 cd $REPDIR
 
 # Download all the website
