@@ -19,7 +19,7 @@ cd $REPDIR
 # Download all the website
 wget --convert-links -r "https://${MYWEB}"
 
-# Upload website the department server
+# Upload website to the department server
 scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
 scp -r $MYWEB/* dgerosa@tapir.caltech.edu:public_html
 
