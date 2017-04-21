@@ -17,7 +17,7 @@ REPDIR="${HOME}/Documents/reps/myweb"
 cd $REPDIR
 
 # Download all the website
-wget --convert-links -r "https://${MYWEB}"
+wget -4 —convert-links -r "https://${MYWEB}"
 
 # Upload website to the department server
 scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
