@@ -1,8 +1,9 @@
+#!/bin/bash
 # Usage:
-# bash update_website.sh "COMMENT"
+# bash update_website.sh "REPDIR" "COMMENT"
 
 # Set a default if no comment is given
-COMMENT=${1:-"Automatic commit from update_website.sh"}
+COMMENT=${2:-"Automatic commit from update_website.sh"}
 
 HERE=$(pwd)
 
@@ -13,7 +14,7 @@ MYWEB="davidegerosa.com"
 echo $MYWEB
 
 # Here is my repository
-REPDIR="${HOME}/Documents/reps/myweb"
+REPDIR=${1-${HOME}/reps/myweb}
 cd $REPDIR
 
 # Download all the website
