@@ -20,7 +20,7 @@ cd $REPDIR
 wget -4 —convert-links -r "https://${MYWEB}"
 
 # Upload website to the department server
-scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
+#scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
 scp -r $MYWEB/* dgerosa@tapir.caltech.edu:public_html
 
 # Caltech needs 755 permission. Be sure it's there
