@@ -8,8 +8,8 @@
 	<Url type="text/html"            template="https://davidegerosa.com/?s={searchTerms}" method="GET" />
 	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
 	<LongName>Davide Gerosa</LongName>
-	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://secure.gravatar.com/blavatar/4b7008722f798ccc0f2a3d0b64b795d1?s=16&#038;d=https%3A%2F%2Fdavidegerosa.com%2Ffavicon.ico</Image>
-	<Image height="64" width="64" type="image/jpeg">https://secure.gravatar.com/blavatar/4b7008722f798ccc0f2a3d0b64b795d1?s=64&#038;d=https%3A%2F%2Fs-ssl.wordpress.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://davidegerosa.files.wordpress.com/2017/07/cropped-imageedit_1_7043466389.png?w=16</Image>
+	<Image height="64" width="64" type="image/png">https://davidegerosa.files.wordpress.com/2017/07/cropped-imageedit_1_7043466389.png?w=64</Image>
 	<Query role="example" searchTerms="photography" />
 	<Tags>blog</Tags>
 	<Developer>Automattic</Developer>
