@@ -30,7 +30,7 @@ wget -k -r "https://${MYWEB}" # -k converts links
 # Remove index.html from converted links
 for f in ${MYWEB}/index.html ${MYWEB}/*/index.html; do
   sed -i -e "s/index.html//g" $f
-  rm $f-e
+  rm -f $f-e
 done
 # Upload website to the department server
 #scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
