@@ -11,14 +11,21 @@ HERE=$(pwd)
 MYWEB="davidegerosa.com"
 #MYWEB="https://davidegerosa.com"
 #MYWEB="davidegerosa.wordpress.com"
-echo $MYWEB
 
 # Here is my repository
 REPDIR=${1-${HOME}/reps/myweb}
+
+echo $MYWEB
+echo $REPDIR
+echo $COMMENT
+
+
 cd $REPDIR
 
+
+
 # Download all the website
-wget -4 —convert-links -r "https://${MYWEB}"
+wget -k -r "https://${MYWEB}" # -k converts links
 
 # Upload website to the department server
 #scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
