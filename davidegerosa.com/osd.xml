@@ -3,10 +3,10 @@
 	<ShortName>Davide Gerosa</ShortName>
 	<Description>Search Davide Gerosa - Caltech</Description>
 	<Contact>help@wordpress.com</Contact>
-	<Url type="application/atom+xml" template="https://davidegerosa.com/?s={searchTerms}&amp;feed=atom"/>
-	<Url type="application/rss+xml"  template="https://davidegerosa.com/?s={searchTerms}&amp;feed=rss2"/>
-	<Url type="text/html"            template="https://davidegerosa.com/?s={searchTerms}" method="GET" />
-	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<Url type="application/atom+xml" template="https://davidegerosa.com/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://davidegerosa.com/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://davidegerosa.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://davidegerosa.com/osd.xml" />
 	<LongName>Davide Gerosa</LongName>
 	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://davidegerosa.files.wordpress.com/2017/07/cropped-imageedit_1_7043466389.png?w=16</Image>
 	<Image height="64" width="64" type="image/png">https://davidegerosa.files.wordpress.com/2017/07/cropped-imageedit_1_7043466389.png?w=64</Image>
