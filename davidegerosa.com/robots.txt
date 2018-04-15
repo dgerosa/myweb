@@ -17,4 +17,4 @@ Disallow: /public.api/
 User-agent: IRLbot
 Crawl-delay: 3600
 
-# This file was generated on Sat, 14 Apr 2018 19:00:03 +0000
+# This file was generated on Sun, 15 Apr 2018 07:00:01 +0000
