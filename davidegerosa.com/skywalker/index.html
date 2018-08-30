@@ -11,7 +11,7 @@
 <script src="https://s2.wp.com/wp-content/themes/pub/yoko/js/css3-mediaqueries.js" type="text/javascript"></script>
 <![endif]-->
 <meta name="google-site-verification" content="20Chlnns2ec7vTqAKQer21fK5DKamALuoNd7Ciw2WdQ" />
-		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1535569203&amp;back=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F' type="text/javascript"></script>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1535589958&amp;back=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F' type="text/javascript"></script>
 		<script type="text/javascript">
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
@@ -78,7 +78,7 @@ img.emoji {
 <meta property="og:url" content="https://davidegerosa.com/skywalker/" />
 <meta property="og:description" content="Check me out on github.com/dgerosa/skywalker. This is a module which contains some of the things I like in python. I was tired of copying the same snippets over and over, so I put them in a module …" />
 <meta property="article:published_time" content="2018-08-20T04:57:13+00:00" />
-<meta property="article:modified_time" content="2018-08-29T05:15:21+00:00" />
+<meta property="article:modified_time" content="2018-08-30T00:32:40+00:00" />
 <meta property="og:site_name" content="Davide Gerosa" />
 <meta property="og:image" content="https://davidegerosa.files.wordpress.com/2018/08/af.png?w=1200" />
 <meta property="og:image:width" content="1200" />
@@ -213,15 +213,13 @@ body.custom-background { background-color: #FFFFFF; }
 	<div class="single-entry-content">
 		<p>Check me out on <a href="https://github.com/dgerosa/skywalker">github.com/dgerosa/skywalker</a>.</p>
 <p>This is a module which contains some of the things I like in python. I was tired of copying the same snippets over and over, so I put them in a module to be imported from everywhere.</p>
-<h3>Installation</h3>
+<h2>Installation</h2>
 <pre><code>pip install skywalker
 </code></pre>
-<h3>Usage</h3>
-<h4>skywalker.plot</h4>
+<h2>Usage</h2>
+<h3>skywalker.plot</h3>
 <p>This is a decorator to handle various matplotlib options, including saving the file to pdf. Just add <code>@skywalker.plot</code> to a function that returns a matplotlib figure object. If a list of figure objects is returned, save a single pdf with many pages.</p>
-<pre><code>import skywalker
-
-@skywalker.plot
+<pre><code>@skywalker.plot
 def test_plot():
     import matplotlib.pyplot as plt
     x=range(100)
@@ -231,19 +229,15 @@ def test_plot():
     ax.plot(x,y)
     return fig
 </code></pre>
-<h4>skywalker.timer</h4>
+<h3>skywalker.timer</h3>
 <p>Decorator to print a function execution time to screen.</p>
-<pre><code>import skywalker
-
-@skywalker.timer
+<pre><code>@skywalker.timer
 def test_timer():
     return range(int(1e7))
 </code></pre>
-<h4>skywalker.checkpoint</h4>
+<h3>skywalker.checkpoint</h3>
 <p>Decorator to checkpoint the output of a function to hdf5 files. Add <code>@skywalker.checkpoint(key=filename)</code> before a function and the output will be stored to file and computed only if necessary. Filename can be dynamic, see options of the ediblepickle module.</p>
-<pre><code>import skywalker
-
-def test_checkpoint():
+<pre><code>def test_checkpoint():
 
     @skywalker.checkpoint('checkpoint_{0}_${arg}')
     def long_calculation(x,arg=10):
@@ -253,11 +247,9 @@ def test_checkpoint():
     long_calculation(2,arg=10)
     long_calculation(1,arg=20)
 </code></pre>
-<h4>skywalker.singleton</h4>
+<h3>skywalker.singleton</h3>
 <p>Decorator to implement the <a href="https://en.wikipedia.org/wiki/Singleton_pattern">singleton pattern</a> in Python. A single instance of the decorated class can exist at any time. If multiple instances are initiated, identical pointers are returned.  Here I use the <a href="https://pypi.org/project/singleton-decorator/">singleton_decorator</a> module.</p>
-<pre><code>import skywalker
-
-def test_singleton():
+<pre><code>def test_singleton():
 
     @skywalker.singleton
     class simple(object):
@@ -268,7 +260,17 @@ def test_singleton():
     s2=simple()
     print(s1,s2, s1==s2)
 </code></pre>
-<h3>Cite me</h3>
+<h3>skywalker.processify</h3>
+<p>Decorator to spawn a new process every time a function is called. Full credit for this incredibly nice piece of code goes to <a href="https://gist.github.com/schlamar/2311116">schlamar</a>.</p>
+<pre><code>def test_processify():
+
+    @skywalker.processify
+    def tricky():
+        return os.getpid()
+
+    print(os.getpid(), tricky(), tricky())
+</code></pre>
+<h2>Cite me</h2>
 <p>If you want to cite this code: <a href="https://zenodo.org/badge/latestdoi/134632789"><img src="https://zenodo.org/badge/134632789.svg" alt="DOI" /></a></p>
 <p> </p>
 <p><small><strong>Picture</strong>: The Arcarde Fire have lightsabers too (in LA at least). </small></p>
@@ -289,7 +291,7 @@ def test_singleton():
 
 <div id="tertiary" class="widget-area" role="complementary">
 	<aside id="widget_contact_info-3" class="widget widget_contact_info"><h3 class="widget-title">Contact me:</h3><div itemscope itemtype="http://schema.org/LocalBusiness"><div class="confit-phone"><span itemprop="telephone">dgerosa@caltech.edu</span></div><div class="confit-hours" itemprop="openingHours"> <br/>Davide Gerosa<br/>California Institute of Technology<br/>TAPIR MC 350-17<br/>1200 E California Blvd<br/>Pasadena, CA 91125<br/>USA<br/><br/>Room 340</div></div></aside><aside id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h3 class="widget-title">Stay tuned&#8230;</h3><ul><li><a href="https://www.linkedin.com/in/gerosadavide/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View gerosadavide&#8217;s profile on LinkedIn</span></a></li><li><a href="https://github.com/dgerosa/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View dgerosa&#8217;s profile on GitHub</span></a></li><li><a href="https://www.youtube.com/channel/UC-Hwv-mfD2Ge7XA4fBkn42w/" class="genericon genericon-youtube" target="_blank"><span class="screen-reader-text">View UC-Hwv-mfD2Ge7XA4fBkn42w&#8217;s profile on YouTube</span></a></li></ul></aside><aside id="blog-stats-5" class="widget widget_blog-stats"><h3 class="widget-title">Stats</h3>		<ul>
-			<li>22,120 hits to my website. Cool!</li>
+			<li>22,127 hits to my website. Cool!</li>
 		</ul>
 		</aside><aside id="search-4" class="widget widget_search">
 <form role="search" method="get" class="searchform" action="../" >
@@ -342,7 +344,7 @@ var WPGroHo = {"my_hash":""};
 <link rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/wp-content/mu-plugins/genericons/genericons/genericons.css?m=1443615899h&cssminify=yes' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
-var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F","themeURL":"","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"de4826cd11","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"ed21ddd2f5\" \/>","referer":"https:\/\/davidegerosa.com\/skywalker\/","canFollow":"","feedID":"35057267","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Fskywalker%2F","postID":"1889","shortlink":"https:\/\/wp.me\/P4i5Sk-ut","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/1889","statsLink":"https:\/\/wordpress.com\/stats\/post\/1889\/davidegerosa.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/skywalker/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/skywalker/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F\&quot;">Log in now.<\/a>","stats":"Stats"}};
+var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F","themeURL":"","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"c882816d7a","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"9a8931b0b2\" \/>","referer":"https:\/\/davidegerosa.com\/skywalker\/","canFollow":"","feedID":"35057267","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Fskywalker%2F","postID":"1889","shortlink":"https:\/\/wp.me\/P4i5Sk-ut","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/1889","statsLink":"https:\/\/wordpress.com\/stats\/post\/1889\/davidegerosa.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/skywalker/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/skywalker/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fskywalker%2F\&quot;">Log in now.<\/a>","stats":"Stats"}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://s1.wp.com/_static/??-eJyVjksOwjAMRC9EMC1FrBBncROrdds4IT/g9qSbCrGoxG40fvNkeHqlnSSSBFMEQ4U1+ddxigf4Otms/JIHlggLzxThkSnTiGIWCr9wGslWxOce3m52q1ew8ICJneyY0VgW1WMAizFRqEm5QiGwqbqt+9OQAuo57o30+tc62lKl7/bWXNrm1J27azt9AIKvbfM='></script>
@@ -369,7 +371,7 @@ _tkq = window._tkq || [];
 _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'63417836','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'63417836','v':'wpcom','tz':'-7','user_id':'0','post':'1889','subd':'davidegerosa'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F+eW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU2dxMy1vNGo1bjd2TkdZcTVvL1UuLi0xWzhscTBmV3UmWE9zXW13fnBnMjVPfnRIcmIzNHZ4UlZpNXxqWy0yel9KJUIvM3IweUlGNW9xQ3JNNndwNSY3b0RTLTRUUnRWWi9nbWVhNDR+S2NpdSxCVEpGNWVnTkNHK0NoWzc1YXBqbUhkNVlpSEQzUE5qaXxEZFR0QTRfJklvWHc5az0rZll2akh4dUJNfA=='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F+eW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU3pxVlNNPVlFUHNzVTFjfGNpWl9lblMmeGtkR34zdWUxbHRdVE0lTEVlQVBKQWpFZl82eC1yS1o3dVVneHYzSVV0TCtzckF3MWwudXZDeUxdLDR1ZUcrczdEXXc5X0ZTNysuaUVnMHIsZEorRUwtcy5XLnQuZF9Yc2QzTG9KRlB1b0o/LkhvcFoldHlKXU5vTi9KNjZJUnFEQzRUWzNaPWpCZk9fVnFDSA=='}]);
 _stq.push([ 'clickTrackerInit', '63417836', '1889' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
