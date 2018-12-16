@@ -11,7 +11,7 @@
 <script src="https://s2.wp.com/wp-content/themes/pub/yoko/js/css3-mediaqueries.js" type="text/javascript"></script>
 <![endif]-->
 <meta name="google-site-verification" content="VBX9dF3S5jDJkid002onGSCdvkM4xqD8MBBQ19qtEwo" />
-		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1544904004&amp;back=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F' type="text/javascript"></script>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=davidegerosa.com&amp;id=63417836&amp;t=1544947204&amp;back=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F' type="text/javascript"></script>
 		<script type="text/javascript">
 		/* <![CDATA[ */
 			if ( 'function' === typeof WPRemoteLogin ) {
@@ -78,7 +78,7 @@ img.emoji {
 <meta property="og:url" content="https://davidegerosa.com/nsphere/" />
 <meta property="og:description" content="I recently came across a very funny math thing, which has to do with the volume of spheres in N dimensions. Sure, not really meaningful from a physical point of view, but still very funny to think …" />
 <meta property="article:published_time" content="2018-12-15T00:35:28+00:00" />
-<meta property="article:modified_time" content="2018-12-15T17:24:57+00:00" />
+<meta property="article:modified_time" content="2018-12-16T03:22:10+00:00" />
 <meta property="og:site_name" content="Davide Gerosa" />
 <meta property="og:image" content="https://davidegerosa.files.wordpress.com/2015/04/globestrip.png?w=1200" />
 <meta property="og:image:width" content="1200" />
@@ -242,46 +242,50 @@ body.custom-background { background-color: #FFFFFF; }
 <p><img src="https://s0.wp.com/latex.php?latex=V_N%28r%29+%3D+%5Cfrac%7B%5Cpi%5E%7Bn%2F2%7D%7D%7B%5CGamma%5Cleft%28%5Cfrac%7Bn%7D%7B2%7D%2B1%5Cright%29%7Dr%5EN&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="V_N(r) = &#92;frac{&#92;pi^{n/2}}{&#92;Gamma&#92;left(&#92;frac{n}{2}+1&#92;right)}r^N" title="V_N(r) = &#92;frac{&#92;pi^{n/2}}{&#92;Gamma&#92;left(&#92;frac{n}{2}+1&#92;right)}r^N" class="latex" /></p>
 <p>The N-dimensional volume scale as the inverse of a Gamma function. So, it goes to zero, and it goeas to zero really fast! Faster than an exponential, actually. This is because <img src="https://s0.wp.com/latex.php?latex=%5CGamma%28z%2B1%29%5Csim+%5Csqrt%7B2+%5Cpi+z%7D%28z%2Fe%29%5Ez&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="&#92;Gamma(z+1)&#92;sim &#92;sqrt{2 &#92;pi z}(z/e)^z" title="&#92;Gamma(z+1)&#92;sim &#92;sqrt{2 &#92;pi z}(z/e)^z" class="latex" /> as <img src="https://s0.wp.com/latex.php?latex=z%5Cto%5Cinfty&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="z&#92;to&#92;infty" title="z&#92;to&#92;infty" class="latex" /> (this thing is called <a href="https://en.wikipedia.org/wiki/Stirling%27s_approximation" target="_blank" rel="noopener">Stirling formula</a>).</p>
 <h2>Code&#8230;</h2>
-<p>That&#8217;s hard to believe, so I had to do an experiment, which for me really means putting this thing into a computer. Here is the simple python code I wrote to compute the N-dimensional volume</p>
-<p><script src="https://gist.github.com/dgerosa/06e521cc1d5bc4c584cb9d5327d64963.js"></script></p>
-<p>&nbsp;</p>
+<p>That&#8217;s hard to believe, so I had to do an experiment, which for me really means putting this thing into a computer. <a href="https://gist.github.com/dgerosa/06e521cc1d5bc4c584cb9d5327d64963" target="_blank" rel="noopener">Here is the simple python code</a> I wrote to compute the N-dimensional volume</p>
+<p><img data-attachment-id="2383" data-permalink="https://davidegerosa.com/nsphere/nspherecode/" data-orig-file="https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=820" data-orig-size="3812,3585" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="nspherecode" data-image-description="" data-medium-file="https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=820?w=300" data-large-file="https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=820?w=820" class="alignnone size-full wp-image-2383" src="https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=820" alt="nspherecode.png" srcset="https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=820 820w, https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=1640 1640w, https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=150 150w, https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=300 300w, https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=768 768w, https://davidegerosa.files.wordpress.com/2018/12/nspherecode.png?w=1024 1024w" sizes="(max-width: 820px) 100vw, 820px"   /></p>
 <p>It&#8217;s a Monte-Carlo strategy, and it&#8217;s actually very simple. We throw a large number of random points in the N-dimensional cube and select those that are inside the sphere. The volume of the sphere is the volume of the cube times the fraction of accepted points</p>
 <p><img src="https://s0.wp.com/latex.php?latex=V_%7B%5Crm+N+sphere%7D+%3D+V_%7B%5Crm+N+cube%7D+%5Cfrac%7BN_%7B%5Crm+accepted%7D%7D%7BN_%7B%5Crm+total%7D%7D&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="V_{&#92;rm N sphere} = V_{&#92;rm N cube} &#92;frac{N_{&#92;rm accepted}}{N_{&#92;rm total}}" title="V_{&#92;rm N sphere} = V_{&#92;rm N cube} &#92;frac{N_{&#92;rm accepted}}{N_{&#92;rm total}}" class="latex" />.</p>
 <p>We do this for many dimensions D up to 30 and check the volumes we find against the exact solution we proved above. If you run that code, this is what you get:</p>
-<pre class="p1"><span class="s1">D=2 N=10000000 N_in=7854391 V=3.14176 Sol=3.14159 diff=0.00005 t=0.63s</span>
-<span class="s1">D=3 N=10000000 N_in=5236198 V=4.18896 Sol=4.18879 diff=0.00004 t=0.92s</span>
-<span class="s1">D=4 N=10000000 N_in=3084039 V=4.93446 Sol=4.93480 diff=0.00007 t=1.16s</span>
-<span class="s1">D=5 N=10000000 N_in=1645407 V=5.26530 Sol=5.26379 diff=0.00029 t=1.35s</span>
-<span class="s1">D=6 N=10000000 N_in=808056 V=5.17156 Sol=5.16771 diff=0.00074 t=1.74s</span>
-<span class="s1">D=7 N=10000000 N_in=370005 V=4.73606 Sol=4.72477 diff=0.00239 t=1.89s</span>
-<span class="s1">D=8 N=10000000 N_in=158915 V=4.06822 Sol=4.05871 diff=0.00234 t=2.08s</span>
-<span class="s1">D=9 N=10000000 N_in=064144 V=3.28417 Sol=3.29851 diff=0.00435 t=2.50s</span>
-<span class="s1">D=10 N=10000000 N_in=025101 V=2.57034 Sol=2.55016 diff=0.00791 t=3.78s</span>
-<span class="s1">D=11 N=10000000 N_in=009097 V=1.86307 Sol=1.88410 diff=0.01117 t=3.54s</span>
-<span class="s1">D=12 N=10000000 N_in=003223 V=1.32014 Sol=1.33526 diff=0.01133 t=3.11s</span>
-<span class="s1">D=13 N=10000000 N_in=001055 V=0.86426 Sol=0.91063 diff=0.05092 t=3.27s</span>
-<span class="s1">D=14 N=10000000 N_in=000382 V=0.62587 Sol=0.59926 diff=0.04439 t=3.41s</span>
-<span class="s1">D=15 N=10000000 N_in=000114 V=0.37356 Sol=0.38144 diff=0.02068 t=3.62s</span>
-<span class="s1">D=16 N=10000000 N_in=000026 V=0.17039 Sol=0.23533 diff=0.27594 t=3.65s</span>
-<span class="s1">D=17 N=10000000 N_in=000012 V=0.15729 Sol=0.14098 diff=0.11566 t=3.80s</span>
-<span class="s1">D=18 N=10000000 N_in=000002 V=0.05243 Sol=0.08215 diff=0.36176 t=4.06s</span>
-<span class="s1">D=19 N=10000000 N_in=000001 V=0.05243 Sol=0.04662 diff=0.12456 t=4.54s</span>
-<span class="s1">D=20 N=10000000 N_in=000001 V=0.10486 Sol=0.02581 diff=3.06316 t=4.47s</span>
-<span class="s1">D=21 N=10000000 N_in=000000 V=0.00000 Sol=0.01395 diff=1.00000 t=5.10s</span>
-<span class="s1">D=22 N=10000000 N_in=000000 V=0.00000 Sol=0.00737 diff=1.00000 t=5.42s</span>
-<span class="s1">D=23 N=10000000 N_in=000000 V=0.00000 Sol=0.00381 diff=1.00000 t=5.27s</span>
-<span class="s1">D=24 N=10000000 N_in=000000 V=0.00000 Sol=0.00193 diff=1.00000 t=5.68s</span>
-<span class="s1">D=25 N=10000000 N_in=000000 V=0.00000 Sol=0.00096 diff=1.00000 t=6.46s</span>
-<span class="s1">D=26 N=10000000 N_in=000000 V=0.00000 Sol=0.00047 diff=1.00000 t=6.16s</span>
-<span class="s1">D=27 N=10000000 N_in=000000 V=0.00000 Sol=0.00022 diff=1.00000 t=6.51s</span>
-<span class="s1">D=28 N=10000000 N_in=000000 V=0.00000 Sol=0.00010 diff=1.00000 t=6.99s</span>
-<span class="s1">D=29 N=10000000 N_in=000000 V=0.00000 Sol=0.00005 diff=1.00000 t=6.91s</span>
-<span class="s1">D=30 N=10000000 N_in=000000 V=0.00000 Sol=0.00002 diff=1.00000 t=7.29s</span></pre>
-<p>For D=2 we get 3.14&#8230; which is <img src="https://s0.wp.com/latex.php?latex=%5Cpi&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="&#92;pi" title="&#92;pi" class="latex" />. The volume then goes up till D=5. That&#8217;s the number of dimensions in which a sphere is &#8220;maximally filling&#8221;. After that, it decreases like crazy. This code is really good up only up to D=15 or so. After that, the sphere is so small that the number of points $N_{\rm accepted}$ is basically zero and the error made on the predictions is close to 100%. This is the same information in a plot. The two solutions seem to agree on that scale, but if you look at the errors (bottom plot), that becomes huge.</p>
+<p><small></p>
+<pre><code>D=2 N=10000000 N_in=7854391 V=3.14176 Sol=3.14159 diff=0.00005 t=0.63s
+D=3 N=10000000 N_in=5236198 V=4.18896 Sol=4.18879 diff=0.00004 t=0.92s
+D=4 N=10000000 N_in=3084039 V=4.93446 Sol=4.93480 diff=0.00007 t=1.16s
+D=5 N=10000000 N_in=1645407 V=5.26530 Sol=5.26379 diff=0.00029 t=1.35s
+D=6 N=10000000 N_in=808056 V=5.17156 Sol=5.16771 diff=0.00074 t=1.74s
+D=7 N=10000000 N_in=370005 V=4.73606 Sol=4.72477 diff=0.00239 t=1.89s
+D=8 N=10000000 N_in=158915 V=4.06822 Sol=4.05871 diff=0.00234 t=2.08s
+D=9 N=10000000 N_in=064144 V=3.28417 Sol=3.29851 diff=0.00435 t=2.50s
+D=10 N=10000000 N_in=025101 V=2.57034 Sol=2.55016 diff=0.00791 t=3.78s
+D=11 N=10000000 N_in=009097 V=1.86307 Sol=1.88410 diff=0.01117 t=3.54s
+D=12 N=10000000 N_in=003223 V=1.32014 Sol=1.33526 diff=0.01133 t=3.11s
+D=13 N=10000000 N_in=001055 V=0.86426 Sol=0.91063 diff=0.05092 t=3.27s
+D=14 N=10000000 N_in=000382 V=0.62587 Sol=0.59926 diff=0.04439 t=3.41s
+D=15 N=10000000 N_in=000114 V=0.37356 Sol=0.38144 diff=0.02068 t=3.62s
+D=16 N=10000000 N_in=000026 V=0.17039 Sol=0.23533 diff=0.27594 t=3.65s
+D=17 N=10000000 N_in=000012 V=0.15729 Sol=0.14098 diff=0.11566 t=3.80s
+D=18 N=10000000 N_in=000002 V=0.05243 Sol=0.08215 diff=0.36176 t=4.06s
+D=19 N=10000000 N_in=000001 V=0.05243 Sol=0.04662 diff=0.12456 t=4.54s
+D=20 N=10000000 N_in=000001 V=0.10486 Sol=0.02581 diff=3.06316 t=4.47s
+D=21 N=10000000 N_in=000000 V=0.00000 Sol=0.01395 diff=1.00000 t=5.10s
+D=22 N=10000000 N_in=000000 V=0.00000 Sol=0.00737 diff=1.00000 t=5.42s
+D=23 N=10000000 N_in=000000 V=0.00000 Sol=0.00381 diff=1.00000 t=5.27s
+D=24 N=10000000 N_in=000000 V=0.00000 Sol=0.00193 diff=1.00000 t=5.68s
+D=25 N=10000000 N_in=000000 V=0.00000 Sol=0.00096 diff=1.00000 t=6.46s
+D=26 N=10000000 N_in=000000 V=0.00000 Sol=0.00047 diff=1.00000 t=6.16s
+D=27 N=10000000 N_in=000000 V=0.00000 Sol=0.00022 diff=1.00000 t=6.51s
+D=28 N=10000000 N_in=000000 V=0.00000 Sol=0.00010 diff=1.00000 t=6.99s
+D=29 N=10000000 N_in=000000 V=0.00000 Sol=0.00005 diff=1.00000 t=6.91s
+D=30 N=10000000 N_in=000000 V=0.00000 Sol=0.00002 diff=1.00000 t=7.29s
+</code></pre>
+<p></small><br />
+ <br />
+For D=2 we get 3.14&#8230; which is <img src="https://s0.wp.com/latex.php?latex=%5Cpi&#038;bg=ffffff&#038;fg=777777&#038;s=0" alt="&#92;pi" title="&#92;pi" class="latex" />. The volume then goes up till D=5. That&#8217;s the number of dimensions in which a sphere is &#8220;maximally filling&#8221;. After that, it decreases like crazy. This code is really good up only up to D=15 or so. After that, the sphere is so small that the number of points $N_{\rm accepted}$ is basically zero and the error made on the predictions is close to 100%. This is the same information in a plot. The two solutions seem to agree on that scale, but if you look at the errors (bottom plot), that becomes huge.</p>
 <p><img class="aligncenter" src="https://davidegerosa.files.wordpress.com/2018/12/nsphere-2.png?w=398&#038;h=731" alt="nsphere.png" width="398" height="731" /></p>
 <p>That was fun, for me at least. Hope you had fun too. BTW, I still think it&#8217;s weird. What happens if you pour water is a N-dimensional spherical ball? Can&#8217;t fit any water in. Wait. What&#8217;s N-dimensional water?</p>
-<p>&nbsp;</p>
 <p>ps. I lead a discussion on this in the 2018 <a href="http://www.tapir.caltech.edu" target="_blank" rel="noopener">TAPIR</a> Postdoc lunch at Caltech. Thanks to everybody that was there!</p>
+<p><code><br />
+</code></p>
 		<div class="clear"></div>
 					</div><!--end entry-content-->
 
@@ -331,7 +335,7 @@ body.custom-background { background-color: #FFFFFF; }
 			</ul>
 
 		</aside><aside id="blog-stats-5" class="widget widget_blog-stats"><h3 class="widget-title">Stats</h3>		<ul>
-			<li>25,769 hits to my website. Cool!</li>
+			<li>25,784 hits to my website. Cool!</li>
 		</ul>
 		</aside><aside id="custom_html-4" class="widget_text widget widget_custom_html"><h3 class="widget-title">Buy me a coffee</h3><div class="textwidget custom-html-widget"><a href="https://ko-fi.com/A65050J" target="_blank" rel="noopener"><img class="alignnone  wp-image-2254" src="https://davidegerosa.files.wordpress.com/2018/10/ko-fi_icon_blue.png" alt="Ko-fi_Icon_Blue" width="39" height="39" /></a>
 Caffeine is key to scientific research </div></aside><aside id="search-4" class="widget widget_search">
@@ -382,12 +386,43 @@ var WPGroHo = {"my_hash":""};
 
 		<div style="display:none">
 	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="63417836" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://davidegerosa.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Davide Gerosa" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="ad0be66daa" /><input type="hidden" name="_wp_http_referer" value="/nsphere/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1524699534h&cssminify=yes' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
 <script type='text/javascript'>
 /* <![CDATA[ */
-var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F","themeURL":"","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"c787f5feac","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"b999a14704\" \/>","referer":"https:\/\/davidegerosa.com\/nsphere\/","canFollow":"1","feedID":"35057267","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Fnsphere%2F","postID":"2363","shortlink":"https:\/\/wp.me\/P4i5Sk-C7","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/2363","statsLink":"https:\/\/wordpress.com\/stats\/post\/2363\/davidegerosa.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/nsphere/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/nsphere/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F\&quot;">Log in now.<\/a>","stats":"Stats"}};
+var actionbardata = {"siteID":"63417836","siteName":"Davide Gerosa","siteURL":"https:\/\/davidegerosa.com","icon":"<img alt='' src='https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/yoko","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F","themeURL":"","xhrURL":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"c5b570d31f","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"f6f734edb1\" \/>","referer":"https:\/\/davidegerosa.com\/nsphere\/","canFollow":"1","feedID":"35057267","statusMessage":"","customizeLink":"https:\/\/davidegerosa.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fdavidegerosa.wordpress.com%2Fnsphere%2F","postID":"2363","shortlink":"https:\/\/wp.me\/P4i5Sk-C7","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/davidegerosa.com\/2363","statsLink":"https:\/\/wordpress.com\/stats\/post\/2363\/davidegerosa.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Yoko","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href="https://davidegerosa.com/nsphere/\&quot;https:\/\/wordpress.com\/\&quot;">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href="https://davidegerosa.com/nsphere/\&quot;https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F\&quot;">Log in now.<\/a>","stats":"Stats"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVjtsOgjAQRH/IuoIYn4zfsrYbutAL9oLw95YHicGExIdNJrMzJwOvQUjvErkEXQRFI0sapmMXD/D1slkMJrfsIhjuKcIzUyaNThkK2/AnGWeXcNLcalMuUfh1ttWkyRb6kB8w+94vkxyO3GJi73ZGobLsxAMDWIyFW5TwI4XAquBW709CCij7uFeSy66ltKqSvttbdamrU3NurnX3BvJThWM='></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonce":"69e9eb4907","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/davidegerosa.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdavidegerosa.com%2Fnsphere%2F","blog_id":"63417836","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=63417836&v=wpcom&tz=-8&user_id=0&subd=davidegerosa","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVUNFqwzAM/KG6oqwp7KHsW1xHJHJs2bPsrPn7KbCU0pbCHozE6e50Mvxk4xJX5ApeoMeZHObr3ssO7kaxmRzaQCwQaEKB74YNR8t9wPJI3piycLXXkYYx6KtYnpFHaR0xqntuF1jSlNZIbGcabKXEb0LZPhKbiy0QraivdibNWAr1anfD/ulQi3WTvBO5NdcqunUbm9iFti7XEyQTv8K9/mJZ/sr+nvVil7MlNcEAHmvWXGYDVPMVz4fu+PF56g7dyf8Cvimweg=='></script>
 <script type="text/javascript">
 // <![CDATA[
 (function() {
@@ -411,7 +446,7 @@ _tkq = window._tkq || [];
 _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'63417836','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'63417836','v':'wpcom','tz':'-8','user_id':'0','post':'2363','subd':'davidegerosa'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F+eW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU3poZy1vNGo1bjd2TkdZcTVvL1UuLi0xWzhscTBmV3UmWE9zXW13fnBnMjVPfnRIcmIzNHZ4UlZpNXxqWy0yel9KJUIvM3IweUlGNW9xQ3JNNndwNSY3b0RTLTRUUnRWWi9nbWVhNDR+S2NpdSxCVEpGNWVnTkNHK0NoWzc1YW5HT1dzT1s9djErYmglODRdPXU2JWJrQllmRFU9LkY0V2cxXw=='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F+eW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU2dxZ1JbckpwT1ZCcVIuZEhaK0d0Y0JDQVtxSXcsWXBLX1BvQisyPXVFaHRIZldQW3w4Nmk0TjdEZ2JuQTlrXzFlQS03PTY4JlhhZ1FfZH4vd3hIYXFddl0vdn5deWF2aXNKdmFGd2hMeVlCRlt2LXRQRmdKUktxXU54dzkuV2NOWXBUajA0LXwtP0FmLGtpd2csaEtbK2M9N3FVLSYrUTVYXQ=='}]);
 _stq.push([ 'clickTrackerInit', '63417836', '2363' ]);
 	</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
