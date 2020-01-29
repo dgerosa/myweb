@@ -2,9 +2,8 @@
 <html amp lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 	
-<!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants" />
 <meta property="og:url" content="https://davidegerosa.com/2018/09/24/high-accuracy-mass-spin-and-recoil-predictions-of-generic-black-hole-merger-remnants/" />
@@ -21,12 +20,13 @@
 <meta name="twitter:card" content="summary" />
 <meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
 
-<!-- End Jetpack Open Graph Tags -->
 	<title>High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants &#8211; Davide Gerosa</title>
 		<link rel="canonical" href="../index.html" />
-	<script custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js" async></script><script src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic">	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":"https:\/\/davidegerosa.com\/2018\/09\/24\/high-accuracy-mass-spin-and-recoil-predictions-of-generic-black-hole-merger-remnants\/","publisher":{"@type":"Organization","name":"Davide Gerosa","logo":{"@type":"ImageObject","url":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=32","height":32,"width":32}},"headline":"High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants","datePublished":"2018-09-24T11:43:41+00:00","dateModified":"2019-09-06T07:49:04+00:00","author":{"@type":"Person","name":"Davide Gerosa"},"image":{"@type":"ImageObject","url":"https:\/\/davidegerosa.files.wordpress.com\/2018\/10\/ducks.png","width":611,"height":258}}</script>
-	<meta name="generator" content="AMP Plugin v0.6.2" />	<style amp-custom>
+	<script type='text/javascript' src='https://cdn.ampproject.org/v0.js' async></script>
+<script type='text/javascript' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js' async custom-element="amp-ad"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	<script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"Davide Gerosa","logo":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=60"},"@type":"BlogPosting","mainEntityOfPage":"https:\/\/davidegerosa.com\/2018\/09\/24\/high-accuracy-mass-spin-and-recoil-predictions-of-generic-black-hole-merger-remnants\/","headline":"High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants","datePublished":"2018-09-24T18:43:41-07:00","dateModified":"2019-09-06T14:49:04-07:00","author":{"@type":"Person","name":"Davide Gerosa"},"image":"https:\/\/davidegerosa.files.wordpress.com\/2018\/10\/ducks.png"}</script>
+	<meta name="generator" content="AMP Plugin v1.4.2; mode=reader; experiences=website"><meta name="generator" content="WordPress.com" />
+	<style amp-custom>
 		/* Generic WP styling */
 
 .alignright {
@@ -39,6 +39,7 @@
 
 .aligncenter {
 	display: block;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -49,10 +50,84 @@
 	margin: 0 auto;
 }
 
-.amp-wp-unknown-size img {
-	/** Worst case scenario when we can't figure out dimensions for an image. **/
-	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+
+/*
+ * Prevent cases of amp-img converted from img to appear with stretching by using object-fit to scale.
+ * See <https://github.com/ampproject/amphtml/issues/21371#issuecomment-475443219>.
+ * Also use object-fit:contain in worst case scenario when we can't figure out dimensions for an image.
+ * Additionally, in side of \AMP_Img_Sanitizer::determine_dimensions() it could $amp_img->setAttribute( 'object-fit', 'contain' )
+ * so that the following rules wouldn't be needed.
+ */
+amp-img.amp-wp-enforced-sizes[layout="intrinsic"] > img,
+amp-anim.amp-wp-enforced-sizes[layout="intrinsic"] > img {
 	object-fit: contain;
+}
+
+amp-fit-text blockquote,
+amp-fit-text h1,
+amp-fit-text h2,
+amp-fit-text h3,
+amp-fit-text h4,
+amp-fit-text h5,
+amp-fit-text h6 {
+	font-size: inherit;
+}
+
+/**
+ * Override a style rule in Twenty Sixteen and Twenty Seventeen.
+ * It set display:none for audio elements.
+ * This selector is the same, though it adds body and uses amp-audio instead of audio.
+ */
+body amp-audio:not([controls]) {
+	display: inline-block;
+	height: auto;
+}
+
+/*
+ * Style the default template messages for submit-success, submit-error, and submitting. These elements are inserted
+ * by the form sanitizer when a POST form lacks the action-xhr attribute.
+ */
+.amp-wp-default-form-message > p {
+	margin: 1em 0;
+	padding: 0.5em;
+}
+
+.amp-wp-default-form-message[submitting] > p,
+.amp-wp-default-form-message[submit-success] > p.amp-wp-form-redirecting {
+	font-style: italic;
+}
+
+.amp-wp-default-form-message[submit-success] > p:not(.amp-wp-form-redirecting) {
+	border: solid 1px #008000;
+	background-color: #90ee90;
+	color: #000;
+}
+
+.amp-wp-default-form-message[submit-error] > p {
+	border: solid 1px #f00;
+	background-color: #ffb6c1;
+	color: #000;
+}
+
+/* Prevent showing empty success message in the case of an AMP-Redirect-To response header. */
+.amp-wp-default-form-message[submit-success] > p:empty {
+	display: none;
+}
+
+amp-carousel .amp-wp-gallery-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 1rem;
+}
+
+.wp-block-gallery[data-amp-carousel="true"] {
+	display: block;
+	flex-wrap: unset;
 }
 
 /* Template Styles */
@@ -70,7 +145,7 @@ html {
 body {
 	background: #fff;
 	color: #353535;
-	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
 	font-weight: 300;
 	line-height: 1.75em;
 }
@@ -143,7 +218,6 @@ blockquote p:last-child {
 	text-decoration: none;
 }
 
-/* Site Icon */
 
 .amp-wp-header .amp-wp-site-icon {
 	/** site icon is 32px **/
@@ -246,6 +320,10 @@ blockquote p:last-child {
 	margin-left: 1em;
 }
 
+.amp-wp-article-content .wp-caption {
+	max-width: 100%;
+}
+
 .amp-wp-article-content amp-img {
 	margin: 0 auto;
 }
@@ -283,6 +361,11 @@ blockquote p:last-child {
 
 /* AMP Media */
 
+.alignwide,
+.alignfull {
+	clear: both;
+}
+
 amp-carousel {
 	background: #c2c2c2;
 	margin: 0 -16px 1.5em;
@@ -304,7 +387,7 @@ amp-carousel > amp-img > img {
 }
 
 .amp-wp-iframe-placeholder {
-	background: #c2c2c2 url( https://s2.wp.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background: #c2c2c2 url( https://s2.wp.com/wp-content/plugins/amp-1.4/assets/images/placeholder-icon.png ) no-repeat center 40%;
 	background-size: 48px 48px;
 	min-height: 48px;
 }
@@ -764,14 +847,15 @@ amp-carousel > amp-img > img {
 						<span class="amp-site-title">
 				Davide Gerosa			</span>
 		</a>
-	</div>
+
+					</div>
 </header>
 
 <article class="amp-wp-article">
 	<header class="amp-wp-article-header">
 		<h1 class="amp-wp-title">High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants</h1>
 			<div class="amp-wp-meta amp-wp-byline">
-					<amp-img src="https://secure.gravatar.com/avatar/1018e66e760b136cd954ab0d06b693da?s=24&#038;d=identicon&#038;r=g" width="24" height="24" layout="fixed"></amp-img>
+					<amp-img src="https://secure.gravatar.com/avatar/1018e66e760b136cd954ab0d06b693da?s=24&#038;d=identicon&#038;r=g" alt="Davide Gerosa" width="24" height="24" layout="fixed"></amp-img>
 				<span class="amp-wp-author author vcard">Davide Gerosa</span>
 	</div>
 <div class="amp-wp-meta amp-wp-posted-on">
@@ -782,7 +866,22 @@ amp-carousel > amp-img > img {
 
 	
 	<div class="amp-wp-article-content">
-		<p>Black hole mergers are like a scattering problem. Two black holes come in, and one black hole comes out. The difference is a bunch of gravitational waves. Those are nice, of course, but the remnant black hole is important too! Here we provide accurate predictions of the mass, spin and kick of this remnant given the properties of the two merging black holes. If you need those numbers (want to build a waveform family? or test GR perhaps?) just use our python module <a href="https://github.com/vijayvarma392/surfinBH">surfinBH</a>!</p><div class="wp-block-image"><figure class="aligncenter"><amp-img src="https://davidegerosa.files.wordpress.com/2018/10/ducks.png" alt="ducks" class="wp-image-2192 amp-wp-enforced-sizes" width="2356" height="994" sizes="(min-width: 611px) 611px, 100vw"></amp-img></figure></div><p><em>Bonus note</em>. What if you collide ducks instead of black holes? </p><p>Vijay Varma, <strong>Davide Gerosa</strong>, François Hébert, Leo C. Stein, Hao Zhang.<br/><strong>Physical Review Letters </strong>122 (2019) <a rel="noopener noreferrer" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.011101" target="_blank">011101</a>.<br/>arXiv:<a rel="noopener noreferrer" href="http://arxiv.org/abs/arXiv:1809.09125" target="_blank">1809.09125</a> [gr-qc]<br/>Press release: <a rel="noopener noreferrer" class="externlink" title="Go to http://www.cam.ac.uk/research/news/new-insights-found-in-black-hole-collisions/" href="http://www.caltech.edu/news/when-black-holes-collide-85110" target="_blank">Caltech</a>, <a rel="noopener noreferrer" href="https://news.olemiss.edu/making-better-predictions-black-hole-smash-ups/" target="_blank">Ole Miss</a>.<br/>Other press coverage: <a class="externlink" title="Go to http://www.sciencedaily.com/releases/2015/02/150226110448.htm" rel="noopener noreferrer" href="http://www.spacedaily.com/reports/Physicists_Create_the_Most_Accurate_Model_Yet_of_Black_Hole_Mergers_999.html" target="_blank">Space Daily</a>, <a rel="noopener noreferrer" class="externlink" title="Go to http://phys.org/news/2015-02-insight-black-hole-collisions.html" href="https://phys.org/news/2019-01-physicists-supercomputers-ai-accurate-black.html" target="_blank">phys.org</a>, <a rel="noopener noreferrer" href="https://www.longroom.com/discussion/1340817/physicists-use-supercomputers-and-ai-to-create-the-most-accurate-model-yet-of-black-hole-mergers" target="_blank">longroom</a>, <a rel="noopener noreferrer" href="https://www.tasnimnews.com/en/news/2019/01/25/1930821/supercomputers-ai-used-to-create-most-accurate-model-of-black-hole-mergers" target="_blank">tasnim</a>, <a rel="noopener noreferrer" href="https://www.europapress.es/ciencia/astronomia/noticia-video-modelo-mas-preciso-fusion-agujeros-negros-20190125144522.html" target="_blank">europapress</a> (Spanish), <a rel="noopener noreferrer" href="http://talian%20national%20institute%20of%20astronomy:%20https//www.youtube.com/watch?v=tDbhV5HL0co" target="_blank">Media INAF</a> (video in Italian).</p>	</div>
+		
+<p>Black hole mergers are like a scattering problem. Two black holes come in, and one black hole comes out. The difference is a bunch of gravitational waves. Those are nice, of course, but the remnant black hole is important too! Here we provide accurate predictions of the mass, spin and kick of this remnant given the properties of the two merging black holes. If you need those numbers (want to build a waveform family? or test GR perhaps?) just use our python module <a href="https://github.com/vijayvarma392/surfinBH">surfinBH</a>!</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><amp-img src="https://davidegerosa.files.wordpress.com/2018/10/ducks.png" alt="ducks" class="wp-image-2192 amp-wp-enforced-sizes" width="2356" height="994" layout="intrinsic"><noscript><img src="https://davidegerosa.files.wordpress.com/2018/10/ducks.png" alt="ducks" class="wp-image-2192" width="2356" height="994"></noscript></amp-img></figure></div>
+
+
+
+<p><em>Bonus note</em>. What if you collide ducks instead of black holes? </p>
+
+
+
+<p>Vijay Varma, <strong>Davide Gerosa</strong>, François Hébert, Leo C. Stein, Hao Zhang.<br><strong>Physical Review Letters </strong>122 (2019) <a rel="noopener noreferrer" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.011101" target="_blank">011101</a>.<br>arXiv:<a rel="noopener noreferrer" href="http://arxiv.org/abs/arXiv:1809.09125" target="_blank">1809.09125</a> [gr-qc]<br>Press release: <a rel="noopener noreferrer" class="externlink" title="Go to http://www.cam.ac.uk/research/news/new-insights-found-in-black-hole-collisions/" href="http://www.caltech.edu/news/when-black-holes-collide-85110" target="_blank">Caltech</a>, <a rel="noopener noreferrer" href="https://news.olemiss.edu/making-better-predictions-black-hole-smash-ups/" target="_blank">Ole Miss</a>.<br>Other press coverage: <a class="externlink" title="Go to http://www.sciencedaily.com/releases/2015/02/150226110448.htm" rel="noopener noreferrer" href="http://www.spacedaily.com/reports/Physicists_Create_the_Most_Accurate_Model_Yet_of_Black_Hole_Mergers_999.html" target="_blank">Space Daily</a>, <a rel="noopener noreferrer" class="externlink" title="Go to http://phys.org/news/2015-02-insight-black-hole-collisions.html" href="https://phys.org/news/2019-01-physicists-supercomputers-ai-accurate-black.html" target="_blank">phys.org</a>, <a rel="noopener noreferrer" href="https://www.longroom.com/discussion/1340817/physicists-use-supercomputers-and-ai-to-create-the-most-accurate-model-yet-of-black-hole-mergers" target="_blank">longroom</a>, <a rel="noopener noreferrer" href="https://www.tasnimnews.com/en/news/2019/01/25/1930821/supercomputers-ai-used-to-create-most-accurate-model-of-black-hole-mergers" target="_blank">tasnim</a>, <a rel="noopener noreferrer" href="https://www.europapress.es/ciencia/astronomia/noticia-video-modelo-mas-preciso-fusion-agujeros-negros-20190125144522.html" target="_blank">europapress</a> (Spanish), <a>Media INAF</a> (video in Italian).</p>
+<div id="jp-post-flair" class="sharedaddy">
+<nav class="jp-relatedposts-i2" data-layout="grid"><h3 class="jp-relatedposts-headline"><em>Related</em></h3><div class="jp-related-posts-i2__row" data-post-count="3"><ul id="related-posts-item-5e31e47307789" aria-labelledby="related-posts-item-5e31e47307789-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e47307789-label" href="../../../../../2017/03/18/are-merging-black-holes-born-from-stellar-collapse-or-previous-mergers/index.html">Are merging black holes born from stellar collapse or previous mergers?</a></li><li class="jp-related-posts-i2__post-date">March 18, 2017</li><li class="jp-related-posts-i2__post-context">In "Caltech"</li></ul><ul id="related-posts-item-5e31e473077a6" aria-labelledby="related-posts-item-5e31e473077a6-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e473077a6-label" href="../../../../../2019/10/06/winter-visitor/index.html">Winter visitors</a></li><li class="jp-related-posts-i2__post-date">October 6, 2019</li><li class="jp-related-posts-i2__post-context">In "Birmingham"</li></ul><ul id="related-posts-item-5e31e473077b2" aria-labelledby="related-posts-item-5e31e473077b2-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e473077b2-label" href="../../../../../2019/06/21/summer-research-fun/index.html">Summer research fun</a></li><li class="jp-related-posts-i2__post-date">June 21, 2019</li><li class="jp-related-posts-i2__post-context">In "Awards"</li></ul></div></nav></div>	</div>
 
 	<footer class="amp-wp-article-footer">
 			<div class="amp-wp-meta amp-wp-tax-category">
@@ -794,16 +893,13 @@ amp-carousel > amp-img > img {
 <footer class="amp-wp-footer">
 	<div>
 		<h2>Davide Gerosa</h2>
-		<p>
-			<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>
-		</p>
 		<a href="index.html#top" class="back-to-top">Back to top</a>
 	</div>
 </footer>
 
 
 	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;host=davidegerosa.com&#038;ref=DOCUMENT_REFERRER&#038;amp=1&#038;blog=63417836&#038;v=wpcom&#038;tz=-8&#038;user_id=0&#038;post=2191&#038;subd=davidegerosa"></amp-pixel>
-	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;v=wpcom-no-pv&#038;crypt=UE40eW5QN0p8M2Y%2FRE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29%2BSmw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8%2FMkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F%2BeW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU3poemh2a2VQY003Qz9henBWdj9FZWlHOCUxVTN4cDVHeUhCTXNoa09QZi5uOGNlOHFrJURMQy9zanlPOEQsJj91d0RENiw2X3pjajlkbEdPNWRFTlomLkdQYmsubHR4YWxNNVs%3D"></amp-pixel>
+	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;v=wpcom-no-pv&#038;crypt=UE40eW5QN0p8M2Y%2FRE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29%2BSmw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8%2FMkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F%2BeW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWUzN1PWR4TDVlWStEUlU1MWo5XVJQYW15cmZHUkw9YVlkZGMrb1Z%2BaGFXOG5weHB0QUcwdysycVNCUDFGckJ4VU5GMDlaeD00TkdKUERHX2xnSEtqbC9DRj9nWCVwYXMvKzZNQX4%3D"></amp-pixel>
 	
 </body>
 </html>

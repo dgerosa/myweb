@@ -2,9 +2,8 @@
 <html amp lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 	
-<!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="The birth of an idea" />
 <meta property="og:url" content="https://davidegerosa.com/2015/07/09/the-birth-of-an-idea/" />
@@ -22,12 +21,13 @@
 <meta name="twitter:card" content="summary" />
 <meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
 
-<!-- End Jetpack Open Graph Tags -->
 	<title>The birth of an idea &#8211; Davide Gerosa</title>
 		<link rel="canonical" href="../index.html" />
-	<script custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js" async></script><script src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic">	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":"https:\/\/davidegerosa.com\/2015\/07\/09\/the-birth-of-an-idea\/","publisher":{"@type":"Organization","name":"Davide Gerosa","logo":{"@type":"ImageObject","url":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=32","height":32,"width":32}},"headline":"The birth of an idea","datePublished":"2015-07-09T13:18:00+00:00","dateModified":"2019-12-04T13:21:26+00:00","author":{"@type":"Person","name":"Davide Gerosa"},"image":{"@type":"ImageObject","url":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=200","width":200,"height":200}}</script>
-	<meta name="generator" content="AMP Plugin v0.6.2" />	<style amp-custom>
+	<script type='text/javascript' src='https://cdn.ampproject.org/v0.js' async></script>
+<script type='text/javascript' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js' async custom-element="amp-ad"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	<script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"Davide Gerosa","logo":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=60"},"@type":"BlogPosting","mainEntityOfPage":"https:\/\/davidegerosa.com\/2015\/07\/09\/the-birth-of-an-idea\/","headline":"The birth of an idea","datePublished":"2015-07-09T20:18:00-07:00","dateModified":"2019-12-04T21:21:26-08:00","author":{"@type":"Person","name":"Davide Gerosa"},"image":{"@type":"ImageObject","url":"https:\/\/davidegerosa.files.wordpress.com\/2017\/07\/cropped-imageedit_1_7043466389.png?w=200","width":200,"height":200}}</script>
+	<meta name="generator" content="AMP Plugin v1.4.2; mode=reader; experiences=website"><meta name="generator" content="WordPress.com" />
+	<style amp-custom>
 		/* Generic WP styling */
 
 .alignright {
@@ -40,6 +40,7 @@
 
 .aligncenter {
 	display: block;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -50,10 +51,84 @@
 	margin: 0 auto;
 }
 
-.amp-wp-unknown-size img {
-	/** Worst case scenario when we can't figure out dimensions for an image. **/
-	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+
+/*
+ * Prevent cases of amp-img converted from img to appear with stretching by using object-fit to scale.
+ * See <https://github.com/ampproject/amphtml/issues/21371#issuecomment-475443219>.
+ * Also use object-fit:contain in worst case scenario when we can't figure out dimensions for an image.
+ * Additionally, in side of \AMP_Img_Sanitizer::determine_dimensions() it could $amp_img->setAttribute( 'object-fit', 'contain' )
+ * so that the following rules wouldn't be needed.
+ */
+amp-img.amp-wp-enforced-sizes[layout="intrinsic"] > img,
+amp-anim.amp-wp-enforced-sizes[layout="intrinsic"] > img {
 	object-fit: contain;
+}
+
+amp-fit-text blockquote,
+amp-fit-text h1,
+amp-fit-text h2,
+amp-fit-text h3,
+amp-fit-text h4,
+amp-fit-text h5,
+amp-fit-text h6 {
+	font-size: inherit;
+}
+
+/**
+ * Override a style rule in Twenty Sixteen and Twenty Seventeen.
+ * It set display:none for audio elements.
+ * This selector is the same, though it adds body and uses amp-audio instead of audio.
+ */
+body amp-audio:not([controls]) {
+	display: inline-block;
+	height: auto;
+}
+
+/*
+ * Style the default template messages for submit-success, submit-error, and submitting. These elements are inserted
+ * by the form sanitizer when a POST form lacks the action-xhr attribute.
+ */
+.amp-wp-default-form-message > p {
+	margin: 1em 0;
+	padding: 0.5em;
+}
+
+.amp-wp-default-form-message[submitting] > p,
+.amp-wp-default-form-message[submit-success] > p.amp-wp-form-redirecting {
+	font-style: italic;
+}
+
+.amp-wp-default-form-message[submit-success] > p:not(.amp-wp-form-redirecting) {
+	border: solid 1px #008000;
+	background-color: #90ee90;
+	color: #000;
+}
+
+.amp-wp-default-form-message[submit-error] > p {
+	border: solid 1px #f00;
+	background-color: #ffb6c1;
+	color: #000;
+}
+
+/* Prevent showing empty success message in the case of an AMP-Redirect-To response header. */
+.amp-wp-default-form-message[submit-success] > p:empty {
+	display: none;
+}
+
+amp-carousel .amp-wp-gallery-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 1rem;
+}
+
+.wp-block-gallery[data-amp-carousel="true"] {
+	display: block;
+	flex-wrap: unset;
 }
 
 /* Template Styles */
@@ -71,7 +146,7 @@ html {
 body {
 	background: #fff;
 	color: #353535;
-	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
 	font-weight: 300;
 	line-height: 1.75em;
 }
@@ -144,7 +219,6 @@ blockquote p:last-child {
 	text-decoration: none;
 }
 
-/* Site Icon */
 
 .amp-wp-header .amp-wp-site-icon {
 	/** site icon is 32px **/
@@ -247,6 +321,10 @@ blockquote p:last-child {
 	margin-left: 1em;
 }
 
+.amp-wp-article-content .wp-caption {
+	max-width: 100%;
+}
+
 .amp-wp-article-content amp-img {
 	margin: 0 auto;
 }
@@ -284,6 +362,11 @@ blockquote p:last-child {
 
 /* AMP Media */
 
+.alignwide,
+.alignfull {
+	clear: both;
+}
+
 amp-carousel {
 	background: #c2c2c2;
 	margin: 0 -16px 1.5em;
@@ -305,7 +388,7 @@ amp-carousel > amp-img > img {
 }
 
 .amp-wp-iframe-placeholder {
-	background: #c2c2c2 url( https://s2.wp.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background: #c2c2c2 url( https://s2.wp.com/wp-content/plugins/amp-1.4/assets/images/placeholder-icon.png ) no-repeat center 40%;
 	background-size: 48px 48px;
 	min-height: 48px;
 }
@@ -765,14 +848,15 @@ amp-carousel > amp-img > img {
 						<span class="amp-site-title">
 				Davide Gerosa			</span>
 		</a>
-	</div>
+
+					</div>
 </header>
 
 <article class="amp-wp-article">
 	<header class="amp-wp-article-header">
 		<h1 class="amp-wp-title">The birth of an idea</h1>
 			<div class="amp-wp-meta amp-wp-byline">
-					<amp-img src="https://secure.gravatar.com/avatar/1018e66e760b136cd954ab0d06b693da?s=24&#038;d=identicon&#038;r=g" width="24" height="24" layout="fixed"></amp-img>
+					<amp-img src="https://secure.gravatar.com/avatar/1018e66e760b136cd954ab0d06b693da?s=24&#038;d=identicon&#038;r=g" alt="Davide Gerosa" width="24" height="24" layout="fixed"></amp-img>
 				<span class="amp-wp-author author vcard">Davide Gerosa</span>
 	</div>
 <div class="amp-wp-meta amp-wp-posted-on">
@@ -783,7 +867,34 @@ amp-carousel > amp-img > img {
 
 	
 	<div class="amp-wp-article-content">
-		<p>I wrote a post for <a rel="noreferrer noopener" aria-label="The Birth of an Idea (opens in a new tab)" href="https://birthofidea.tecnico.ulisboa.pt/" target="_blank">The Birth of an Idea</a>, which is a really beautiful blog collecting insights on how scientists start their science. Thanks Vitor for the opportunity to contribute! Here is <a rel="noreferrer noopener" aria-label="my post (opens in a new tab)" href="http://birthofidea.ist.utl.pt/#gerosa" target="_blank">my post</a>: </p><p></p><h4><strong><em>Bikes and Colorful Pieces</em></strong></h4><p><em>An idea, a good one at least, is like a gift. It’s something which is not yours (indeed, you didn’t have it before!) but comes to you, it’s given to you.</em></p><p><em>I bike to work, it’s kind of ten minutes from my place to the Cambridge Maths department, but those ten minutes can be more productive than ten hours or ten days in front of my computer’s screen. It’s morning, your mind should be clear (you should pay attention to cars while biking!), but it’s actually already getting full of what you have to do today. You get to the office, sit down, turn your computer on, and start looking at your problem. You write the equations down, try putting them in a computer, it doesn’t work, just nans coming out. You ask a collaborator who hopefully knows something, write the equations down again, it doesn’t work. You check in a paper if someone else did something similar, take a break, get annoyed (and here I typically open football websites…). Oh, and you write the same equations down again, it simply doesn’t work.</em></p><p><em>At some stage, it’s time to go home, and that moment is precious to me. You know your problem so well, those equations, that crashing piece of code, but you were looking too close. When I close my laptop and get on my way home, fresh air on my face, I can look at the problem from afar. It’s like looking at those beautiful ancient mosaics. If you look very close, you only see one colored piece, but you can’t see any meaning in it. Each piece is crucial to the final piece of art, but the value of each piece is its relation to the bigger picture. You can only appreciate a mosaic if you take one step back and look to the whole picture from afar. Wow. Biking home is my step back. You’ve been looking at all pieces for days, weeks, you know the color of each piece so well that you can finally grasp the relation which puts them together.</em></p><p><em>An idea, a good one at least, is like a gift you can say thanks for.</em></p>	</div>
+		
+<p>I wrote a post for <a rel="noreferrer noopener" aria-label="The Birth of an Idea (opens in a new tab)" href="https://birthofidea.tecnico.ulisboa.pt/" target="_blank">The Birth of an Idea</a>, which is a really beautiful blog collecting insights on how scientists start their science. Thanks Vitor for the opportunity to contribute! Here is <a rel="noreferrer noopener" aria-label="my post (opens in a new tab)" href="http://birthofidea.ist.utl.pt/#gerosa" target="_blank">my post</a>: </p>
+
+
+
+<p></p>
+
+
+
+<h4><strong><em>Bikes and Colorful Pieces</em></strong></h4>
+
+
+
+<p><em>An idea, a good one at least, is like a gift. It’s something which is not yours (indeed, you didn’t have it before!) but comes to you, it’s given to you.</em></p>
+
+
+
+<p><em>I bike to work, it’s kind of ten minutes from my place to the Cambridge Maths department, but those ten minutes can be more productive than ten hours or ten days in front of my computer’s screen. It’s morning, your mind should be clear (you should pay attention to cars while biking!), but it’s actually already getting full of what you have to do today. You get to the office, sit down, turn your computer on, and start looking at your problem. You write the equations down, try putting them in a computer, it doesn’t work, just nans coming out. You ask a collaborator who hopefully knows something, write the equations down again, it doesn’t work. You check in a paper if someone else did something similar, take a break, get annoyed (and here I typically open football websites…). Oh, and you write the same equations down again, it simply doesn’t work.</em></p>
+
+
+
+<p><em>At some stage, it’s time to go home, and that moment is precious to me. You know your problem so well, those equations, that crashing piece of code, but you were looking too close. When I close my laptop and get on my way home, fresh air on my face, I can look at the problem from afar. It’s like looking at those beautiful ancient mosaics. If you look very close, you only see one colored piece, but you can’t see any meaning in it. Each piece is crucial to the final piece of art, but the value of each piece is its relation to the bigger picture. You can only appreciate a mosaic if you take one step back and look to the whole picture from afar. Wow. Biking home is my step back. You’ve been looking at all pieces for days, weeks, you know the color of each piece so well that you can finally grasp the relation which puts them together.</em></p>
+
+
+
+<p><em>An idea, a good one at least, is like a gift you can say thanks for.</em></p>
+<div id="jp-post-flair" class="sharedaddy">
+<nav class="jp-relatedposts-i2" data-layout="grid"><h3 class="jp-relatedposts-headline"><em>Related</em></h3><div class="jp-related-posts-i2__row" data-post-count="3"><ul id="related-posts-item-5e31e47ed33de" aria-labelledby="related-posts-item-5e31e47ed33de-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e47ed33de-label" href="../../../../../2019/03/19/bham-here-i-come/index.html">Bham, here I come</a></li><li class="jp-related-posts-i2__post-date">March 19, 2019</li><li class="jp-related-posts-i2__post-context">In "Birmingham"</li></ul><ul id="related-posts-item-5e31e47ed3402" aria-labelledby="related-posts-item-5e31e47ed3402-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e47ed3402-label" href="../../../../../2019/12/04/hitting-this-problem-hard-enough-on-scientific-american/index.html">"Hitting this problem hard enough" on Scientific American</a></li><li class="jp-related-posts-i2__post-date">December 4, 2019</li><li class="jp-related-posts-i2__post-context">In "Birmingham"</li></ul><ul id="related-posts-item-5e31e47ed3414" aria-labelledby="related-posts-item-5e31e47ed3414-label" class="jp-related-posts-i2__post" role="menuitem"><li class="jp-related-posts-i2__post-link"><a id="related-posts-item-5e31e47ed3414-label" href="../../../../../2019/09/20/welcome-matt/index.html">Welcome Matt!</a></li><li class="jp-related-posts-i2__post-date">September 20, 2019</li><li class="jp-related-posts-i2__post-context">In "Birmingham"</li></ul></div></nav></div>	</div>
 
 	<footer class="amp-wp-article-footer">
 			<div class="amp-wp-meta amp-wp-tax-category">
@@ -795,16 +906,13 @@ amp-carousel > amp-img > img {
 <footer class="amp-wp-footer">
 	<div>
 		<h2>Davide Gerosa</h2>
-		<p>
-			<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>
-		</p>
 		<a href="index.html#top" class="back-to-top">Back to top</a>
 	</div>
 </footer>
 
 
 	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;host=davidegerosa.com&#038;ref=DOCUMENT_REFERRER&#038;amp=1&#038;blog=63417836&#038;v=wpcom&#038;tz=-8&#038;user_id=0&#038;post=2920&#038;subd=davidegerosa"></amp-pixel>
-	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;v=wpcom-no-pv&#038;crypt=UE40eW5QN0p8M2Y%2FRE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29%2BSmw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8%2FMkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F%2BeW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU1JhZVVqW0QtME9wYmd3Qi5SOXJZVmRJYjNvTiw0LkNYK1JqdHF0LUN4TFNPUjBnM3NZWGlpdkZQRGhwUGIwL3plYUlMVENmbDRZdXZnRDdrLkNYK3ZhVjh4azRxLFJiRT9%2BTQ%3D%3D"></amp-pixel>
+	<amp-pixel src="https://pixel.wp.com/b.gif?rand=RANDOM&#038;v=wpcom-no-pv&#038;crypt=UE40eW5QN0p8M2Y%2FRE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29%2BSmw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8%2FMkNtblkvY1dZSGl8VF9oM1NSMHlWNmRlR1tvSGgra3F%2BeW1fc3hQWGFBRSxLNGg0dGNUbURLZ040fHZWU3pobXowLG5GYVotYnFPS3V2b2RhVytxMjM%2Femg0LkVOR0VEdlM2OGVuNmVqLFlZa1V4aFZ%2BZHNWRV9hMk1ofEtuNlM5ZjBBWHxnRVNOVVJFVz9XfHZYY1h0XzQ1P2hoa1B8T1s%3D"></amp-pixel>
 	
 </body>
 </html>
