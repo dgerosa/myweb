@@ -35,14 +35,14 @@ done
 #scp -r $MYWEB/* dg438@ssh.damtp.cam.ac.uk:public_html
 
 # Upload website to Caltech
-scp -r $MYWEB/* dgerosa@tapir.caltech.edu:public_html
+#scp -r $MYWEB/* dgerosa@tapir.caltech.edu:public_html
 # Caltech needs 755 permission. Be sure it's there
-ssh dgerosa@tapir.caltech.edu chmod 755 public_html
+#ssh dgerosa@tapir.caltech.edu chmod 755 public_html
 
-# Upload website to Caltech
-scp -r $MYWEB/* dgerosa@hydra.sr.bham.ac.uk:www_html
-# Caltech needs 755 permission. Be sure it's there
-ssh dgerosa@hydra.sr.bham.ac.uk chmod 755 www_html
+# Upload website to Birmingham
+#scp -r $MYWEB/* dgerosa@hydra.sr.bham.ac.uk:www_html
+# Birmingham needs 755 permission. Be sure it's there
+#ssh dgerosa@hydra.sr.bham.ac.uk chmod 755 www_html
 
 
 
