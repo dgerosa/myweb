@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--	<title>Talks - Davide Gerosa</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://davidegerosa.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://davidegerosa.com/wp-content/themes/yoko/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	
+	<!-- This site is optimized with the Yoast SEO plugin v14.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Talks - Davide Gerosa</title>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<link rel="canonical" href="talks/index.html"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="Talks - Davide Gerosa"/>
+	<meta property="og:description" content="These are some of the places where I&#8217;ve been presenting my research. Click the button below for a pdf version of my talk list. Do you want to see these places on a map? Invited talks marked with *. Talks &hellip; Continue reading &rarr;"/>
+	<meta property="og:url" content="http://davidegerosa.com/talks/"/>
+	<meta property="og:site_name" content="Davide Gerosa"/>
+	<meta property="article:modified_time" content="2020-05-21T18:47:53+00:00"/>
+	<meta property="og:image" content="https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-scaled.jpg"/>
+	<meta property="og:image:width" content="2560"/>
+	<meta property="og:image:height" content="731"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://davidegerosa.com/#website","url":"https://davidegerosa.com/","name":"Davide Gerosa","description":"","potentialAction":[{"@type":"SearchAction","target":"https://davidegerosa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://davidegerosa.com/talks/#primaryimage","inLanguage":"en-US","url":"https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-scaled.jpg","width":2560,"height":731},{"@type":"WebPage","@id":"http://davidegerosa.com/talks/#webpage","url":"http://davidegerosa.com/talks/","name":"Talks - Davide Gerosa","isPartOf":{"@id":"https://davidegerosa.com/#website"},"primaryImageOfPage":{"@id":"http://davidegerosa.com/talks/#primaryimage"},"datePublished":"2014-09-11T15:38:34+00:00","dateModified":"2020-05-21T18:47:53+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://davidegerosa.com/talks/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/'/>
+<link rel='dns-prefetch' href='https://s.w.org/'/>
+<link rel="alternate" type="application/rss+xml" title="Davide Gerosa &raquo; Feed" href="feed/index.html"/>
+<link rel="alternate" type="application/rss+xml" title="Davide Gerosa &raquo; Comments Feed" href="comments/feed/index.html"/>
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">var mi_version='7.10.4';var mi_track_user=true;var mi_no_track_reason='';var disableStr='ga-disable-UA-67868438-3';function __gaTrackerIsOptedOut(){return document.cookie.indexOf(disableStr+'=true')>-1;}if(__gaTrackerIsOptedOut()){window[disableStr]=true;}function __gaTrackerOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';window[disableStr]=true;}if(mi_track_user){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');__gaTracker('create','UA-67868438-3','auto');__gaTracker('set','forceSSL',true);__gaTracker('require','displayfeatures');__gaTracker('send','pageview');}else{console.log("");(function(){var noopfn=function(){return null;};var noopnullfn=function(){return null;};var Tracker=function(){return null;};var p=Tracker.prototype;p.get=noopfn;p.set=noopfn;p.send=noopfn;var __gaTracker=function(){var len=arguments.length;if(len===0){return;}var f=arguments[len-1];if(typeof f!=='object'||f===null||typeof f.hitCallback!=='function'){console.log('Not running function __gaTracker('+arguments[0]+" ....) because you are not being tracked. "+mi_no_track_reason);return;}try{f.hitCallback();}catch(ex){}};__gaTracker.create=function(){return new Tracker();};__gaTracker.getByName=noopnullfn;__gaTracker.getAll=function(){return[];};__gaTracker.remove=noopfn;window['__gaTracker']=__gaTracker;})();}</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/davidegerosa.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);</script>
+		<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://c0.wp.com/c/5.4.1/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all'/>
+<style id='wp-block-library-inline-css' type='text/css'>.has-text-align-justify{text-align:justify}</style>
+<link rel='stylesheet' id='wp-components-css' href='https://c0.wp.com/c/5.4.1/wp-includes/css/dist/components/style.min.css' type='text/css' media='all'/>
+<link crossorigin="anonymous" rel='stylesheet' id='wp-editor-font-css' href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.4.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-block-editor-css' href='https://c0.wp.com/c/5.4.1/wp-includes/css/dist/block-editor/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-nux-css' href='https://c0.wp.com/c/5.4.1/wp-includes/css/dist/nux/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-editor-css' href='https://c0.wp.com/c/5.4.1/wp-includes/css/dist/editor/style.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='embedpress_blocks-cgb-style-css-css' href='wp-content/plugins/embedpress/Gutenberg/dist/blocks.style.build.css?ver=5.4.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='fontawesome-free-css' href='wp-content/plugins/getwid/vendors/fontawesome-free/css/all.min.css?ver=5.5.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='slick-css' href='wp-content/plugins/getwid/vendors/slick/slick/slick.min.css?ver=1.9.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='slick-theme-css' href='wp-content/plugins/getwid/vendors/slick/slick/slick-theme.min.css?ver=1.9.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='magnific-popup-css' href='wp-content/plugins/getwid/vendors/magnific-popup/magnific-popup.min.css?ver=1.1.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='getwid-blocks-css' href='wp-content/plugins/getwid/assets/css/blocks.style.css?ver=1.5.4' type='text/css' media='all'/>
+<style id='getwid-blocks-inline-css' type='text/css'>.wp-block-getwid-section .wp-block-getwid-section__wrapper .wp-block-getwid-section__inner-wrapper{max-width:620px}</style>
+<link rel='stylesheet' id='embedpress-css' href='wp-content/plugins/embedpress/assets/css/embedpress.css?ver=5.4.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='social-icons-general-css' href='wp-content/plugins/social-icons/assets/css/social-icons.css?ver=1.7.2' type='text/css' media='all'/>
+<link crossorigin="anonymous" rel='stylesheet' id='yoko-fonts-css' href='https://fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700%7CDroid+Serif%3A400%2C700%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext' type='text/css' media='all'/>
+<link rel='stylesheet' id='yoko-style-css' href='wp-content/themes/yoko/style.css?ver=2013-10-21' type='text/css' media='all'/>
+<link rel='stylesheet' id='jetpack_css-css' href='https://c0.wp.com/p/jetpack/8.5/css/jetpack.css' type='text/css' media='all'/>
+<script type='text/javascript'>//<![CDATA[
+var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/davidegerosa.com","hash_tracking":"false"};
+//]]></script>
+<script type='text/javascript' src='wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.4.1/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.4.1/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 5.4.1"/>
+<link rel='shortlink' href='index.html?p=46'/>
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https:%252F%252Fdavidegerosa.com%252Ftalks%252F"/>
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=https:%252F%252Fdavidegerosa.com%252Ftalks%252F&amp;format=xml"/>
+
+<link rel='dns-prefetch' href='https://c0.wp.com/'/>
+<style type='text/css'>img#wpstats{display:none}</style>	<style type="text/css" id="yoko-themeoptions-css">a{color:#009bc2}#content .single-entry-header h1.entry-title{color:#009bc2!important}input#submit:hover{background-color:#009bc2!important}#content .page-entry-header h1.entry-title{color:#009bc2!important}.searchsubmit:hover{background-color:#009bc2!important}</style>
+		<style type="text/css" id="custom-background-css">body.custom-background{background-color:#fff}</style>
+	<!-- There is no amphtml version available for this URL. --><link rel="icon" href="wp-content/uploads/2017/07/cropped-cropped-imageedit_1_7043466389-32x32.png" sizes="32x32"/>
+<link rel="icon" href="wp-content/uploads/2017/07/cropped-cropped-imageedit_1_7043466389-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="wp-content/uploads/2017/07/cropped-cropped-imageedit_1_7043466389-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://davidegerosa.com/wp-content/uploads/2017/07/cropped-cropped-imageedit_1_7043466389-270x270.png"/>
+</head>
+
+<body class="page-template-default page page-id-46 custom-background">
+<div id="page" class="clearfix">
+	<header id="branding">
+		<nav id="mainnav" class="clearfix">
+			<div class="menu-pages-container"><ul id="menu-pages" class="menu"><li id="menu-item-2149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2149"><a href="https://davidegerosa.com/">Home</a></li>
+<li id="menu-item-3021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3021"><a href="https://davidegerosa.com/news/">News</a></li>
+<li id="menu-item-3222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3222"><a href="index.html?p=12">CV</a></li>
+<li id="menu-item-3023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3023"><a href="index.html?p=2466">Group</a></li>
+<li id="menu-item-3250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3250"><a href="index.html?p=2613">Jobs</a></li>
+<li id="menu-item-2925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2925"><a href="index.html?p=14">Publications</a></li>
+<li id="menu-item-2152" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-46 current_page_item menu-item-2152"><a href="index.html?p=46" aria-current="page">Talks</a></li>
+<li id="menu-item-2968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2968"><a href="index.html?p=644">Data</a>
+<ul class="sub-menu">
+	<li id="menu-item-2982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2982"><a href="index.html?p=644">Data</a></li>
+	<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="index.html?p=658">precession</a></li>
+	<li id="menu-item-2969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2969"><a href="index.html?p=224">BH inspiral</a></li>
+	<li id="menu-item-2971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2971"><a href="index.html?p=803">Core collapse</a></li>
+	<li id="menu-item-2980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2980"><a href="index.html?p=1698">surrkick</a></li>
+	<li id="menu-item-2986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2986"><a href="index.html?p=1855">gwdet</a></li>
+	<li id="menu-item-2987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2987"><a href="index.html?p=1866">spops</a></li>
+</ul>
+</li>
+<li id="menu-item-3016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3016"><a href="index.html?p=1793">Notes</a>
+<ul class="sub-menu">
+	<li id="menu-item-3017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3017"><a href="index.html?p=1793">Notes</a></li>
+	<li id="menu-item-3009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3009"><a href="index.html?p=669">Install Python</a></li>
+	<li id="menu-item-3011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3011"><a href="index.html?p=1563">Install lal</a></li>
+	<li id="menu-item-3013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3013"><a href="index.html?p=1770">GWpython</a></li>
+	<li id="menu-item-3005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3005"><a href="index.html?p=1108">filltex</a></li>
+	<li id="menu-item-3008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3008"><a href="index.html?p=759">SVN to GIT</a></li>
+	<li id="menu-item-3020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3020"><a href="index.html?p=1889">skywalker</a></li>
+	<li id="menu-item-3022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3022"><a href="index.html?p=2363">nsphere</a></li>
+</ul>
+</li>
+<li id="menu-item-3225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3225"><a href="index.html?p=53">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-3241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3241"><a href="index.html?p=53">More</a></li>
+	<li id="menu-item-3230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3230"><a href="index.html?p=1145">Quotes</a></li>
+	<li id="menu-item-3233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3233"><a href="index.html?p=816">Citations</a></li>
+	<li id="menu-item-3385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3385"><a href="index.html?p=3369">Bibbase</a></li>
+	<li id="menu-item-3232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3232"><a href="index.html?p=1009">Maps</a></li>
+	<li id="menu-item-3236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3236"><a href="index.html?p=1279">Feeds</a></li>
+	<li id="menu-item-3251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3251"><a href="index.html?p=2627">Bham tweets</a></li>
+	<li id="menu-item-3252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3252"><a href="index.html?p=2271">Bham calendar</a></li>
+</ul>
+</li>
+</ul></div>		</nav><!-- end mainnav -->
+
+		
+		<hgroup id="site-title">
+					<h1><a href="https://davidegerosa.com/" title="Davide Gerosa">Davide Gerosa</a></h1>
+				<h2 id="site-description"></h2>
+				</hgroup><!-- end site-title -->
+
+								<script data-pagespeed-no-defer>//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://davidegerosa.com/talks/','8Xxa2XQLv9',true,false,'bAD1v9ZgN4c');
+//]]></script><img width="1102" height="315" src="wp-content/uploads/2014/11/sagrada_low_72-scaled.jpg" class="headerimage wp-post-image" alt="" srcset="https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-scaled.jpg 2560w, https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-300x86.jpg 300w, https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-1024x293.jpg 1024w, https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-768x219.jpg 768w, https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-1536x439.jpg 1536w, https://davidegerosa.com/wp-content/uploads/2014/11/sagrada_low_72-2048x585.jpg 2048w" sizes="(max-width: 1102px) 100vw, 1102px" data-pagespeed-url-hash="3203950333" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>			
+		<nav id="subnav">
+					</nav><!-- end subnav -->
+</header><!-- end header -->
+
+<div id="wrap">
+<div id="main">
+
+	<div id="content">
+
+				
+				
+<article id="post-46" class="post-46 page type-page status-publish has-post-thumbnail hentry">
+
+	<header class="page-entry-header">
+		<h1 class="entry-title">Talks</h1>
+	</header><!--end page-entry-hader-->
+
+	<div class="single-entry-content">
+		
+<p>These are some of the places where I&#8217;ve been presenting my research. Click the button below for a pdf version of my talk list. Do you want to see these places on a <a href="maps/index.html">map</a>?</p>
+
+
+
+<div class="wp-block-buttons aligncenter">
+<div class="wp-block-button is-style-outline" style="color:#019bc2"><a class="wp-block-button__link has-text-color" href="https://latex.aslushnikov.com/pending?git=https%3A%2F%2Fgithub.com%2Fdgerosa%2FCV&amp;force=true&amp;target=talklist.tex&amp;trackId=1590086834538&amp;download=DavideGerosa_talklist.pdf" style="color:#019bc2;border-radius:9px" target="_blank" rel="noreferrer noopener"><strong>Talk list</strong></a></div>
+</div>
+
+
+
+<p></p>
+
+
+
+<p>Invited talks marked with <strong><span style="color:#009bc2;">*</span></strong>.</p>
+
+
+
+<h2>Talks at conferences</h2>
+
+
+
+<p><strong><span style="color:#009bc2;">34. </span></strong><em>Second-generation black holes, the pair-instability mass gap, and the escape speed of stellar clusters.</em><br>30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK, Dec 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">33. </span></strong><em>Testing the no-hair theorem with multiband black-hole binaries.</em><br>30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK, Dec 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">32. </span></strong><em>Multiband gravitational- wave (astro)physics.</em><br><span class="sl header-titles color-blue pt-15 pb-20 appear-animation zoomIn appear-animation-visible">GrEAT (Gravitational-wave Excellence through Alliance Training) PhD school, Birmingham</span>, UK, Nov 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">31. </span></strong><em>Pick the right one: Bayesian model selection on catalogs of gravitational-wave events.</em><br><span class="sl header-titles color-green pt-15 appear-animation zoomIn appear-animation-visible">22nd International Conference on General Relativity and Gravitation (GR22)&nbsp; and&nbsp;</span><span class="sl header-titles color-blue pt-15 pb-20 appear-animation zoomIn appear-animation-visible">13th Edoardo Amaldi Conference, Valencia</span>, Spain, Jul 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">30. </span></strong><em>Space-ground multiband detections. How many?</em><br><span class="sl header-titles color-green pt-15 appear-animation zoomIn appear-animation-visible">22nd International Conference on General Relativity and Gravitation (GR22)&nbsp; and&nbsp;</span><span class="sl header-titles color-blue pt-15 pb-20 appear-animation zoomIn appear-animation-visible">13th Edoardo Amaldi Conference, Valencia</span>, Spain, Jul 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">29. *&nbsp;</span></strong><em>&nbsp;Black-hole&nbsp;kicks: how and where.</em><br>Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct&nbsp;2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">28. *&nbsp;</span></strong><em> Forming binary black holes out of stars.</em><br>Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct&nbsp;2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">27. *&nbsp;</span></strong><em>&nbsp;Getting ready: exploit LISA to improve LIGO&#8217;s tests of General Relativity.</em><br>Einstein Fellows Symposium 2018, Cambridge MA, USA, Oct&nbsp;2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">26. </span></strong><em>Runaways: recoiling black holes and their gravitational-wave signatures.</em><br>COSPAR 2018 42nd assembly, Pasadena CA, USA, July 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">25. </span></strong><em> An unprecedented opportunity: black-hole spectroscopy with LISA forewarnings and LIGO optimizations.</em><br>12th LISA Symposium, Chicago IL, USA, July 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">24. *&nbsp;</span></strong><em>&nbsp;What do LIGO&#8217;s black holes remember?</em><br>April APS Meeting, Columbus OH, USA, Apr 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">23.</span></strong>&nbsp;<em>Modeling black hole kicks with waveform approximants.</em><br>34rd Pacific Coast Gravity Meeting, Pasadena CA, USA, Mar&nbsp;2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">22. &nbsp;</span></strong><em>Black holes from other black holes? </em><br>Gravity@Malta2018, Valletta, Malta, Jan 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">21. *&nbsp;</span></strong><em>The gravitational-wave astronomy revolution. </em><br>2nd Milan Christmas Workshop, Milan, Italy, Dec 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">20. &nbsp;</span></strong><em>Reanalysis of LIGO black-hole coalescences with alternative prior assumptions.</em><br>IAU Symposium 338, Baton Rouge LA, USA, Oct&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">19. *&nbsp;</span></strong><em>Careful with the priors: a reanalysis of LIGO black-hole coalescences.</em><br>Einstein Fellows Symposium 2017, Cambridge MA, USA, Oct&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">18.</span></strong>&nbsp; &nbsp;<em>Empty galaxies to constrain black-hole superkicks.</em><br>3rd Swinburne-Caltech Galaxy Workshop, Pasadena CA, USA, Sept 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">17. *</span></strong><em>&nbsp;Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers.</em><br>12th Edoardo Amaldi Conference, Pasadena CA, USA, Jul 2017. <strong>Plenary talk</strong>.<br><a href="http://adsabs.harvard.edu/abs/2017arXiv171110038G" target="_blank" rel="noopener noreferrer">Proceedings</a> published by IoP (Mar 2018).</p>
+
+
+
+<p><strong><span style="color:#009bc2;">16.</span></strong>&nbsp;&nbsp;<em> Core collapse and compact-object formation to test General Relativity.</em><br>LIGO Core Collapse Supernova Workshop, Pasadena CA, USA, Mar&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">15.</span></strong>&nbsp;<em>&nbsp; The curious and simple limit of equal-mass precessing black-hole binaries.</em><br>33rd Pacific Coast Gravity Meeting, Santa Barbara CA, USA, Mar&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">14. *</span></strong><em>&nbsp;Spins remember: spin signatures of astrophysical black hole formation mechanisms.</em><br>Strong Gravity and Binary Dynamics with Gravitational Wave Observations, Oxford MS, USA, Feb&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">13.</span></strong>&nbsp;&nbsp;<em> The kick is in the waveform: detection of black-hole recoils.</em><br>The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">12.&nbsp;</span></strong>&nbsp;&nbsp;<em>Kicked waveforms: prospects for direct detection of black hole recoils.</em><br>&#8220;April&#8221; APS Meeting, Washington DC, USA, Jan&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">11. *&nbsp;</span></strong><em>Getting the most out of gravitational-wave observations: kicks and spin precession.</em><br>Einstein Fellows Symposium 2016, Cambridge MA, USA, Oct&nbsp;2016.<br><a href="https://www.youtube.com/watch?v=bL9Ite62FcE#t=19m52s" target="_blank" rel="noopener noreferrer">Youtube</a> recording and <a href="https://twitter.com/PeterDEdmonds/status/788731646988152832" target="_blank" rel="noopener noreferrer">Twitter</a> coverage</p>
+
+
+
+<p><strong><span style="color:#009bc2;">10.</span></strong>&nbsp; &nbsp;<em>Averaging the average: multi-timescale analysis of precessing black-hole binaries.</em><br>21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA, Jul 2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">9.</span></strong>&nbsp; &nbsp;<em>Differential accretion means differential alignment.</em><br>BritGrav 16, Nottingham, UK, Apr&nbsp;2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">8.&nbsp;</span></strong>&nbsp;&nbsp;<em>A new instability to black-hole spin precession.</em><br>28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland, Dec&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">7.&nbsp; &nbsp;</span></strong><em>Binary black-hole spin precession: a tale of three timescales. </em><br>One Hundred Years of Strong Gravity, Lisbon, Portugal, Jun 2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">6.</span></strong>&nbsp; &nbsp;<em>Giant and empty: black-hole occupation fraction in brightest cluster galaxies. </em><br>BritGrav 15, Birmingham, UK, Apr 2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">5. *&nbsp;</span></strong><em>Not so fast: gas-driven spin alignment in merging black-hole binaries. </em><br>Milan Christmas Workshop, Milan, Italy, Dec 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">4.</span></strong>&nbsp; &nbsp;<em>Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks. </em><br>99 years of Black Holes, Potsdam, Germany, May 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">3.</span></strong>&nbsp; &nbsp;<em>Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history. </em><br>3rd Session of the Sant Cugat Forum on Astrophysics, Sant Cugat, Spain, Apr 2014.<br><a href="http://adsabs.harvard.edu/abs/2015ASSP...40..137G" target="_blank" rel="noopener noreferrer">Proceedings</a> published by Springer (Jan 2015).</p>
+
+
+
+<p><strong><span style="color:#009bc2;">2.</span></strong>&nbsp; &nbsp;<em>Gravitational-wave signals from stellar-mass black-hole binaries in resonant configurations. </em><br>BritGrav 14, Cambridge, UK, Mar 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">1.</span></strong>&nbsp; &nbsp;<em>Spin alignment effects in stellar mass black hole binaries. </em><br>22nd Midwest Relativity Meeting, Chicago IL, USA, Sep 2012.</p>
+
+
+
+<h2>Talks at department seminars</h2>
+
+
+
+<p><strong><span style="color:#009bc2;">33. *</span></strong>&nbsp; <em><em>Growing up:&nbsp;the next generation of black holes moves out of the cluster</em>.</em><br>Black Hole Initiative Colloquium, Harvard University, Cambridge MA, USA (remote), Mar 2020.<br><a href="https://www.youtube.com/watch?v=sdFq0ZGeEG8" target="_blank" rel="noreferrer noopener">Youtube</a> recording.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">32. *</span></strong>&nbsp; <em>Multiple generations of black-hole mergers to pinpoint their astrophysical origin.</em><br>Gravity seminars, University of Southampton, Southampton, UK, Feb 2020.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">31. *</span></strong>&nbsp; <em>Assembling multiple generations of black-hole mergers in the LIGO/Virgo band.</em><br>Theoretical Astrophysics seminars, University of Leicester, Leicester, UK, Feb 2020.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">30. *</span></strong>&nbsp; <em>Predicting LIGO&#8217;s black holes with LISA.</em><br>AstroParticle seminars, Institute for Fundamental Physics of the Universe, Trieste, Italy, Nov 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">29. *</span></strong>&nbsp; <em>Multiband gravitational waves: event rates, detectability, and tests of gravity.</em><br>Particle Cosmology seminars, University of Nottingham, Nottingham, UK, Nov 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">28. *</span></strong>&nbsp; <em><span class="s1">Understanding birth and growth of binary black holes with gravitational waves.</span></em><br>Physics Colloquium, California State University Northridge, Los Angeles CA, USA, Feb 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">27. *</span></strong>&nbsp; <em><span class="s1">The (astro)physics of </span><span class="s1">black-hole mergers and their gravitational-wave emission.</span></em><br>Physics and Astronomy Colloquium, California State University Northridge, Los Angeles CA, USA, Jan 2019.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">26. *</span></strong>&nbsp; <em>Model selection for large catalogs of gravitational-wave events.</em><br>Cosmology seminars, Johns Hopkins University, Baltimore MD, USA, Nov 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">25. *</span></strong>&nbsp; <em>How to kick black holes out of their galaxies.</em><br>Strong Gravity Seminars, Perimeter Institute for Theoretical Physics, Waterloo, Canada, Sep 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">24. *</span></strong>&nbsp; <em>(Astro)physical consequences of black-hole recoils.</em><br>CITA Seminars, Canadian Institute for Theoretical Astrophysics, Toronto, Canada, Sep 2018.<br><a href="https://www.youtube.com/watch?v=QZVk3y_izGI" target="_blank" rel="noopener noreferrer">Youtube</a> recording.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">23. *</span></strong>&nbsp;&nbsp;<em>Black-hole spins and the astrophysics of LIGO&#8217;s sources.</em><br>AEI seminars, Albert Einstein Institute, Hannover, Germany, Apr 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">22. *</span></strong>&nbsp;&nbsp;<em>Dynamics of spinning black-hole binaries as a tool to uncover their formation pathway.</em><br>AEI seminars, Albert Einstein Institute, Potsdam, Germany, Mar 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">21. *</span></strong>&nbsp;&nbsp;<em>Runaways: phenomenology and detectability of black-hole recoils.</em><br>Theoretical Astrophysics Seminars, University of Florida, Gainsville FL, USA, Mar 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">20. *</span></strong>&nbsp;&nbsp;<em>Testing relativity with past and future supernova explosions.</em><br>Physics colloquia, Montana State University, Bozeman MT, USA, Feb 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">19. *</span></strong>&nbsp;<em> More astrophysics out of the first gravitational wave detections.</em><br>GSSI seminars, Gran Sasso Science Institute, L&#8217;Aquila, Italy, Jan 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">18. *</span></strong>&nbsp;<em>Where do binary black holes come from? How do we find out?</em><br>Theory seminars, Sapienza Università di Roma, Rome, Italy, Jan 2018.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">17. *</span></strong>&nbsp;<em><span class="md-expand">Monopole radiation, hyper scalarization and inverse chirps: the promise of testing gravity with stellar collapse.</span></em><br>Steward Observatory lunch seminars, University of Arizona, Tucson AZ, USA, Nov 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">16. *</span></strong>&nbsp;<em><span class="md-expand">Black-hole binary spin precession: from relativity to astronomy.</span></em><br>GRITTS seminars, Massachusetts Institute of Technology LIGO Lab, Cambridge MA, USA, Oct 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">15. *&nbsp;</span></strong><em><span class="md-expand">Constraining the astrophysics behind the first LIGO detections.</span></em><br>Physics colloquia,&nbsp;University of Texas at Dallas, Dallas TX, USA, Sep 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">14. *&nbsp;</span></strong><em>Binary black hole astrophysics with the first gravitational-wave events.</em><br>Theory group&nbsp;seminars,&nbsp;Universitat de Barcelona, Barcelona, Spain, May 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">13. *&nbsp;</span></strong><em>Astrophysics with the first gravitational-wave events: from supernova asymmetries to multiple black-hole generations.</em><br>GR seminars, Department Applied Mathematics and Theoretical Physics, Cambridge, UK, May 2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">12. *&nbsp;</span></strong><em>Black-hole binaries on the road to merger.</em><br>Oskar Klein Center colloquia, Stockholms Universitet, Stockholm, Sweden, Jan&nbsp;2017.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">11. *&nbsp;</span></strong><em>A tale&nbsp;of astronomy and relativity: formation and evolution of black-hole binaries.</em><br>Department&nbsp;seminar series, Università degli Studi di Milano, Milan, Italy, Apr 2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">10. *&nbsp;</span></strong><em>A new paradigm for&nbsp;black-hole spin precession.</em><br>Astrophysics seminars,&nbsp;University of Birmingham, Birmingham, UK, Feb 2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">9. *&nbsp;</span></strong><em>New insights on binary black-hole spin precession.</em><br>AEI seminars, Albert Einstein Institute, Potsdam, Germany, Feb 2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">8. *&nbsp;</span></strong><em>Spontaneous scalarization: a promising avenue for gravitational-wave astronomy.</em><br>GReCO&nbsp;seminars, Institut d&#8217;Astrophysique de Paris, Paris, France, Jan&nbsp;2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">7. *&nbsp;</span></strong><em>Innovative multi-timescale approach to binary black holes.</em><br>Theoretical&nbsp;Astrophysics seminars, Università degli Studi di Milano, Milan, Italy, Dec&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">6. *&nbsp;</span></strong><em>Stellar collapse in scalar-tensor theories of gravity: prospects for gravitational-wave astronomy.&nbsp;</em><br>Gravity and Particles seminars, University of Nottingham, Nottingham, UK, Dec&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">5. *&nbsp;</span></strong><em>Core collapse and relativistic stars in scalar-tensor theories of gravity.&nbsp;</em><br>Gravity seminars, STAG Research Center, Southampton, UK, Oct&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">4. *&nbsp;</span></strong><em>Binary black-hole spin alignment: gas-driven and relativistic inspiral. </em><br>Wednesday seminars, Institute of Astronomy, Cambridge, UK, Jun 2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">3. *&nbsp;</span></strong><em>Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale. </em><br>Gravitational Physics seminars, Cardiff University, Cardiff, UK, May 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">2. *&nbsp;</span></strong><em>Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale. </em><br>GR seminar, Department Applied Mathematics and Theoretical Physics, Cambridge, UK, May 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">1. *&nbsp;</span></strong><em>Spin alignment and resonant plane in stellar mass black hole binaries. </em><br>Lunch talks, Leiden Observatory, Leiden, The Netherlands, Jan 2013.</p>
+
+
+
+<h2>Posters&nbsp;at conferences</h2>
+
+
+
+<p><strong><span style="color:#009bc2;">7.&nbsp;&nbsp;</span></strong>&nbsp;<em>PRECESSION: efficient black-hole binary evolution with python.</em><br>Mathematics and Big Data Showcase, Cambridge, UK, Apr 2016.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">6. *&nbsp;</span></strong><em>Numerical relativity group at University of Cambridge.</em><br>Einstein&#8217;s Legacy: celebrating 100 years of general relativity, London, UK, Nov&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">5. *&nbsp;</span></strong><em>Formation and evolution of compact objects in relativity and modified gravity.</em><br>5th DiRAC Science Day, Cambridge, UK, Sep&nbsp;2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">4.</span></strong>&nbsp; &nbsp;<em>New analytic solutions to binary black-hole dynamics: from spin precession to inspiral. </em><br>Eurostrings 2015, Cambridge, UK, Mar 2015.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">3. *&nbsp;</span></strong><em>Analytic solutions to binary black-hole spin precession: recalling Kepler&#8217;s two-body problem. </em><br>Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.<br><a href="https://davidegerosa.files.wordpress.com/2015/02/leiden_poster.pdf">Best young presentation</a> <strong>award</strong></p>
+
+
+
+<p><strong><span style="color:#009bc2;">2.</span></strong>&nbsp; &nbsp;<em>Efficient precession-averaged evolution of spinning black-hole binaries. </em><br>Towards gravitational-wave astronomy: data analysis techniques and challenges, London, UK, Dec 2014.</p>
+
+
+
+<p><strong><span style="color:#009bc2;">1.</span></strong>&nbsp; &nbsp;<em>Morphologies and binary transfer: a new approach to the post-newtonian dynamics of precessing black-holes binaries. </em><br>DPG Physics School &#8220;General Relativity @99&#8221;, Bad Honnef, Germany, Sep 2014.</p>
+		<div class="clear"></div>
+					</div><!--end entry-content-->
+	
+</article><!-- end post-46 -->
+
+				
+<div id="comments" class="clearfix">
+
+	
+						
+	</div><!-- end comments -->
+	</div><!-- end content -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+							
+						</div><!-- #secondary .widget-area --> 
+</div><!-- end main -->
+
+		<div id="tertiary" class="widget-area" role="complementary">
+			<aside id="text-26" class="widget widget_text"><h3 class="widget-title">Picture</h3>			<div class="textwidget"><p>Lights from La Sagrada, Barcelona, Spain.</p>
+</div>
+		</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><h3 class="widget-title">Contact me</h3><div class="textwidget custom-html-widget"><a href="mailto:d.gerosa@bham.ac.uk">d.gerosa@bham.ac.uk</a>
+<br>
+<br>
+Davide Gerosa
+<br>
+Institute for Gravitational Wave Astronomy
+<br>
+University of Birmingham
+<br>
+Edgbaston, Birmingham
+B15 2TT, UK
+<br>
+<br>
+Office: Physics West 223</div></aside>		<aside id="recent-posts-5" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+											<li>
+					<a href="index.html?p=3399">Core collapse in massive scalar-tensor gravity</a>
+											<span class="post-date">May 20, 2020</span>
+									</li>
+											<li>
+					<a href="index.html?p=3219">Astrophysical implications of GW190412 as a remnant of a previous black-hole merger</a>
+											<span class="post-date">May 12, 2020</span>
+									</li>
+											<li>
+					<a href="index.html?p=3209">Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants</a>
+											<span class="post-date">May 6, 2020</span>
+									</li>
+					</ul>
+		</aside><aside id="themegrill_social_icons-2" class="widget social-icons widget_social_icons"><h3 class="widget-title">Stay tuned</h3>		
+		<ul class="social-icons-lists social-icons-greyscale icons-background-rounded">
+
+			
+				<li class="social-icons-list-item">
+					<a href="https://github.com/dgerosa" target="_blank" class="social-icon">
+						<span class="socicon socicon-github" style="padding: 10px; font-size: 16px; background-color: #555"></span>
+
+											</a>
+				</li>
+
+			
+				<li class="social-icons-list-item">
+					<a href="https://www.linkedin.com/in/gerosadavide/" target="_blank" class="social-icon">
+						<span class="socicon socicon-linkedin" style="padding: 10px; font-size: 16px; background-color: #555"></span>
+
+											</a>
+				</li>
+
+			
+				<li class="social-icons-list-item">
+					<a href="https://scholar.google.com/citations?user=iff2Zc8AAAAJ&#038;hl=en&#038;oi=sra" target="_blank" class="social-icon">
+						<span class="socicon socicon-googlescholar" style="padding: 10px; font-size: 16px; background-color: #555"></span>
+
+											</a>
+				</li>
+
+			
+				<li class="social-icons-list-item">
+					<a href="https://www.youtube.com/channel/UC-Hwv-mfD2Ge7XA4fBkn42w" target="_blank" class="social-icon">
+						<span class="socicon socicon-youtube" style="padding: 10px; font-size: 16px; background-color: #555"></span>
+
+											</a>
+				</li>
+
+			
+				<li class="social-icons-list-item">
+					<a href="http://bitbucket.org/dgerosa" target="_blank" class="social-icon">
+						<span class="socicon socicon-bitbucket" style="padding: 10px; font-size: 16px; background-color: #555"></span>
+
+											</a>
+				</li>
+
+			
+		</ul>
+
+		</aside><aside id="search-4" class="widget widget_search"><form role="search" method="get" class="searchform" action="https://davidegerosa.com/">
+		<div>
+		<input type="text" class="search-input" value="" name="s" id="s"/>
+		<input type="submit" class="searchsubmit" value="Search"/>
+		</div>
+		</form></aside>		</div><!-- end tertiary .widget-area -->
+</div><!-- end wrap -->
+
+	<footer id="colophon" class="clearfix">
+<!--		<p>Proudly powered by <a href="http://wordpress.org/">WordPress</a><span class="sep"> | </span>Theme: Yoko by <a href="http://www.elmastudio.de/en/themes/">Elmastudio</a></p>
+		<a href="#page" class="top">Top</a> -->
+	</footer><!-- end colophon -->
+	
+</div><!-- end page -->
+<script type='text/javascript'>//<![CDATA[
+var Getwid={"settings":{"date_time_utc":"2020-05-22 07:00:58","google_api_key":""},"ajax_url":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"05a2e3d9f0"}};
+//]]></script>
+<script type='text/javascript' src='wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1.5.4'></script>
+<script type='text/javascript' src='wp-content/themes/yoko/js/smoothscroll.js?ver=1.4'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.4.1/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202021.js' async='async' defer='defer'></script>
+<script type='text/javascript'>_stq=window._stq||[];_stq.push(['view',{v:'ext',j:'1:8.5',blog:'177570848',post:'46',tz:'0',srv:'davidegerosa.com'}]);_stq.push(['clickTrackerInit','177570848','46']);</script>
+
+</body>
+</html>
