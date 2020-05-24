@@ -15,18 +15,19 @@
 	<meta name="robots" content="index, follow"/>
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-	<link rel="canonical" href="http://34.75.75.174/filltex/"/>
+	<link rel="canonical" href="http://www.davidegerosa.com/filltex/"/>
 	<meta property="og:locale" content="en_US"/>
 	<meta property="og:type" content="article"/>
 	<meta property="og:title" content="filltex: automagically fill LaTex bibliography - Davide Gerosa"/>
 	<meta property="og:description" content="Check me out on github.com/dgerosa/filltex."/>
-	<meta property="og:url" content="http://34.75.75.174/filltex/"/>
+	<meta property="og:url" content="http://www.davidegerosa.com/filltex/"/>
 	<meta property="og:site_name" content="Davide Gerosa"/>
+	<meta property="article:modified_time" content="2020-05-24T17:00:02+00:00"/>
 	<meta property="og:image" content="https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-scaled.jpg"/>
 	<meta property="og:image:width" content="2560"/>
 	<meta property="og:image:height" content="731"/>
 	<meta name="twitter:card" content="summary_large_image"/>
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://davidegerosa.com/#website","url":"https://davidegerosa.com/","name":"Davide Gerosa","description":"","potentialAction":[{"@type":"SearchAction","target":"https://davidegerosa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://34.75.75.174/filltex/#primaryimage","inLanguage":"en-US","url":"https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-scaled.jpg","width":2560,"height":731},{"@type":"WebPage","@id":"http://34.75.75.174/filltex/#webpage","url":"http://34.75.75.174/filltex/","name":"filltex: automagically fill LaTex bibliography - Davide Gerosa","isPartOf":{"@id":"https://davidegerosa.com/#website"},"primaryImageOfPage":{"@id":"http://34.75.75.174/filltex/#primaryimage"},"datePublished":"2016-11-12T00:22:01+00:00","dateModified":"2016-11-12T00:22:01+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://34.75.75.174/filltex/"]}]}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://davidegerosa.com/#website","url":"https://davidegerosa.com/","name":"Davide Gerosa","description":"","potentialAction":[{"@type":"SearchAction","target":"https://davidegerosa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://www.davidegerosa.com/filltex/#primaryimage","inLanguage":"en-US","url":"https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-scaled.jpg","width":2560,"height":731},{"@type":"WebPage","@id":"http://www.davidegerosa.com/filltex/#webpage","url":"http://www.davidegerosa.com/filltex/","name":"filltex: automagically fill LaTex bibliography - Davide Gerosa","isPartOf":{"@id":"https://davidegerosa.com/#website"},"primaryImageOfPage":{"@id":"http://www.davidegerosa.com/filltex/#primaryimage"},"datePublished":"2016-11-12T00:22:01+00:00","dateModified":"2020-05-24T17:00:02+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://www.davidegerosa.com/filltex/"]}]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -136,7 +137,7 @@ var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":
 				</hgroup><!-- end site-title -->
 
 								<script data-pagespeed-no-defer>//<![CDATA[
-(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://davidegerosa.com/filltex/','8Xxa2XQLv9',true,false,'9Qf5FCw9njY');
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://davidegerosa.com/filltex/','8Xxa2XQLv9',true,false,'mJDhf6M3y4Y');
 //]]></script><img width="1102" height="315" src="wp-content/uploads/2016/11/caramelle-scaled.jpg" class="headerimage wp-post-image" alt="" srcset="https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-scaled.jpg 2560w, https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-300x86.jpg 300w, https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-1024x293.jpg 1024w, https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-768x219.jpg 768w, https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-1536x439.jpg 1536w, https://davidegerosa.com/wp-content/uploads/2016/11/caramelle-2048x585.jpg 2048w" sizes="(max-width: 1102px) 100vw, 1102px" data-pagespeed-url-hash="2015622873" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>			
 		<nav id="subnav">
 					</nav><!-- end subnav -->
@@ -161,31 +162,47 @@ var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":
 
 
 
-<div class="wp-block-jetpack-markdown"><p><code>filltex</code> is a simple tool to fill LaTex reference lists with records from the <a href="http://adsabs.harvard.edu">ADS</a> and <a href="http://inspirehep.net">INSPIRE</a>  databases. <a href="http://adsabs.harvard.edu">ADS</a> and <a href="http://inspirehep.net">INSPIRE</a> are the most common databases used among the astronomy and theoretical physics scientific communities, respectively. <code>filltex</code> automatically looks for all citation labels present in a tex document and, by means of web-scraping, downloads  all the required citation records from either of the two databases. <code>filltex</code> significantly speeds up the LaTex scientific writing workflow, as all required actions (compile the tex file, fill the bibliography, compile the bibliography, compile the tex file again) are automated in a single command. We also provide an integration of <code>filltex</code> for the macos LaTex editor <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a>.</p>
+<p><code>filltex</code> is a simple tool to fill LaTex reference lists with records from the <a href="http://adsabs.harvard.edu">ADS</a> and <a href="http://inspirehep.net">INSPIRE</a>  databases. <a href="http://adsabs.harvard.edu">ADS</a> and <a href="http://inspirehep.net">INSPIRE</a> are the most common databases used among the astronomy and theoretical physics scientific communities, respectively. <code>filltex</code> automatically looks for all citation labels present in a tex document and, by means of web-scraping, downloads  all the required citation records from either of the two databases. <code>filltex</code> significantly speeds up the LaTex scientific writing workflow, as all required actions (compile the tex file, fill the bibliography, compile the bibliography, compile the tex file again) are automated in a single command. We also provide an integration of <code>filltex</code> for the macos LaTex editor <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a>.</p>
+
 <p>If you use <code>filltex</code> for your research, please drop a citation to <a href="http://joss.theoj.org/papers/10.21105/joss.00222">this paper</a>:</p>
+
 <ul>
 <li><em>filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography</em>,
 Davide Gerosa, Michele Vallisneri, The Journal of Open Source Software 2 (2017) 13.</li>
 </ul>
+
 <p>Of course, you can use <code>filltex</code> to cite <code>filltex</code>! Just put <code>\cite{2017JOSS....2..222G}</code> in your tex file!</p>
-<p><a href="https://doi.org/10.5281/zenodo.596848"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.596848.svg" alt="DOI" data-pagespeed-url-hash="1369546053" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></p>
+
+<p><a href="https://doi.org/10.5281/zenodo.596848"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.596848.svg" alt="DOI" data-pagespeed-url-hash="1369546053" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></p>
+
 <h2>Installation</h2>
+
 <p><code>filltex</code> can be installed from the python package index <a href="https://pypi.python.org/pypi">Pypi</a>:</p>
+
 <pre><code>pip install filltex
 </code></pre>
-<p>If you&#8217;re a <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> user and want to use this feature, run</p>
+
+<p>If you're a <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> user and want to use this feature, run</p>
+
 <pre><code>filltex install-texshop
 </code></pre>
-<p>&lt;!&#8211; The script requires the program <code>realpath</code>. This should be there by default on most linux distributions. On mac, you can get if from <a href="http://brew.sh/">Homebrew</a>&#8211;&gt;
-&lt;!&#8211;   brew install coreutils &#8211;&gt;</p>
+
+<p><!-- The script requires the program `realpath`. This should be there by default on most linux distributions. On mac, you can get if from [Homebrew](http://brew.sh/)-->
+<!--   brew install coreutils --></p>
+
 <p>If you want to give it a try, you can run it on the <code>example.tex</code> file provided in this repository:</p>
+
 <pre><code>git clone https://github.com/dgerosa/filltex.git
 cd filltex/example
 filltex example
 </code></pre>
+
 <p>and you should get a filled <code>.bib</code> file and a finished <code>.pdf</code>.</p>
-<h2>What&#8217;s about?</h2>
-<p>What happens when you compile a LaTex file? How&#8217;s bibliography handled?</p>
+
+<h2>What's about?</h2>
+
+<p>What happens when you compile a LaTex file? How's bibliography handled?</p>
+
 <ol>
 <li>Run <code>pdflatex</code> and all requested citation keys are dumped into a <code>.aux</code> file.</li>
 <li>You <strong>should</strong> have the required entries in you <code>.bib</code> file.</li>
@@ -193,81 +210,122 @@ filltex example
 <li>Run <code>pdflatex</code> again, which processes the <code>.bbl</code> into the compiled paper, and dumps the citation records into <code>.aux</code>.</li>
 <li>Finally run <code>pdflatex</code> again, which puts the correct citation records into the paper.</li>
 </ol>
+
 <p>The commands you need to run are: <code>pdflatex</code>, <code>bibtex</code>, <code>pdflatex</code>, <code>pdflatex</code>. These, of course can be put into a script or a makefile and done in one goal.
 <code>filltex</code> is meant to automatically solve the second point as well: look for citations on <a href="http://adsabs.harvard.edu">ADS</a>, <a href="http://inspirehep.net">INSPIRE</a> or both.</p>
+
 <p>So, here is the deal:</p>
+
 <ul>
 <li>The <code>fillbib</code> python script queries both databases and create/update a <code>.bib</code> file without getting each record manually.</li>
 <li>The <code>filltex</code> bash script put everything together to go from a <code>.tex</code> (and no <code>.bib</code>) into a <code>.pdf</code>.</li>
 <li>I also provide <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> engines for mac users</li>
 </ul>
-<p>Of course, all of this works if your citations are specified in the <a href="http://adsabs.harvard.edu">ADS</a> or <a href="http://inspirehep.net">INSPIRE</a> format, e.g. <code>\cite{2016PhRvL.116f1102A}</code>, <code>\cite{Abbott:2016blz}</code>. If you use your personal keys <code>\cite{amazing_paper}</code>there&#8217;s no way to get them from a database.</p>
+
+<p>Of course, all of this works if your citations are specified in the <a href="http://adsabs.harvard.edu">ADS</a> or <a href="http://inspirehep.net">INSPIRE</a> format, e.g. <code>\cite{2016PhRvL.116f1102A}</code>, <code>\cite{Abbott:2016blz}</code>. If you use your personal keys <code>\cite{amazing_paper}</code>there's no way to get them from a database.</p>
+
 <h2>Usage</h2>
+
 <h3>fillbib (script)</h3>
-<p><em><strong><code>fillbib</code></strong></em> looks for citations into a <code>.aux</code> file and create/update a <code>.bib</code> with the records found on ADS and INSPIRE.
+
+<p><strong><em><code>fillbib</code></em></strong> looks for citations into a <code>.aux</code> file and create/update a <code>.bib</code> with the records found on ADS and INSPIRE.
 Usage:</p>
+
 <pre><code>python fillbib.py &lt;aux file&gt; &lt;bib file&gt;
 </code></pre>
+
 <p>The second argument <code>&lt;bib file&gt;</code> can be omitted, and the code will scan the <code>.aux</code> file to guess the name of your bibliography file.
 Arguments can be typed with or without extension, and the script is smart enough to figure it out.
-You need to have <code>.aux</code> file already, not just the <code>.tex</code>. If you don&#8217;t have it, run <code>pdflatex</code> once.</p>
+You need to have <code>.aux</code> file already, not just the <code>.tex</code>. If you don't have it, run <code>pdflatex</code> once.</p>
+
 <p><code>fillbib</code> contains two short unit tests, to make sure the web-scarping part is done correctly. You can run them from the <code>filltex</code> directiory using</p>
+
 <pre><code>python
 &gt; import fillbib
 &gt; fillbib.test_ads()
 &gt; fillbib.test_inspire()
 </code></pre>
+
 <p>or simply using <a href="https://docs.pytest.org/en/latest/contents.html#toc"><code>pytest</code></a></p>
+
 <pre><code>pytest fillbib
 </code></pre>
+
 <p><code>fillbib</code> supports both python 2 (2.6 or higher) and python 3.</p>
+
 <h3>filltex (script)</h3>
-<p><em><strong><code>filltex</code></strong></em> does the whole thing: compile LaTex, fill the bibliography and gives you the final <code>.pdf</code>. Usage:</p>
+
+<p><strong><em><code>filltex</code></em></strong> does the whole thing: compile LaTex, fill the bibliography and gives you the final <code>.pdf</code>. Usage:</p>
+
 <pre><code>filltex &lt;tex file&gt;
 </code></pre>
+
 <p>Argument can be with or without extension, and the script is smart enough to figure it out.</p>
-<p>Since ADS bibliography items contains journal abbreviations, you need to use <code>aas_macros.sty</code> (available <a href="http://doc.adsabs.harvard.edu/abs_doc/aas_macros.sty">here</a>). Don&#8217;t worry, you just put <code>\include{aas_macros}</code> in your <code>.tex</code> file, and <code>filltex</code> will download the file for you if you need it.</p>
+
+<p>Since ADS bibliography items contains journal abbreviations, you need to use <code>aas_macros.sty</code> (available <a href="http://doc.adsabs.harvard.edu/abs_doc/aas_macros.sty">here</a>). Don't worry, you just put <code>\include{aas_macros}</code> in your <code>.tex</code> file, and <code>filltex</code> will download the file for you if you need it.</p>
+
 <p>At the end, <code>filltex</code> also runs <a href="http://app.uio.no/ifi/texcount">TexCount</a> which counts the words in your document.</p>
+
 <h3>TexShop</h3>
-<p>I use the <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> editor, so I wrote an implementation of <code>filltex</code> for it. If you copied the <code>filltex.engine</code> file as specified above, just open your paper with <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> and select <em><strong>filltex</strong></em> from the drop menu on the left. Now automagically compile your paper with <code>Typeset</code> or cmd-T.
-&lt;!&#8211; The <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> engine will work only if the path is updated in your <code>.bashrc</code>, see above. &#8211;&gt;</p>
+
+<p>I use the <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> editor, so I wrote an implementation of <code>filltex</code> for it. If you copied the <code>filltex.engine</code> file as specified above, just open your paper with <a href="http://pages.uoregon.edu/koch/texshop">TexShop</a> and select <strong><em>filltex</em></strong> from the drop menu on the left. Now automagically compile your paper with <code>Typeset</code> or cmd-T. 
+<!-- The [TexShop](http://pages.uoregon.edu/koch/texshop) engine will work only if the path is updated in your `.bashrc`, see above. --></p>
+
 <h3>Example</h3>
+
 <p>A short <code>example.tex</code> file is provided, where you can try this new way of writing papers!</p>
+
 <h2>Known limitations</h2>
+
 <ul>
-<li>
-<p>Treating arXiv e-prints with ADS is tricky. When an e-print gets published they change the database key, but make the old key point to the new version! For instance, the key switches from <code>2016arXiv160203837T</code> to <code>2016PhRvL.116f1102A</code>.  If you&#8217;re citing an e-print which is not yet published, everything is fine: only the arXiv key (e.g. <code>2016arXiv160203837T</code>) is available and your reference list will show the arXiv version. If you&#8217;re citing a paper that is published, both the e-print key (e.g. <code>2016arXiv160203837T</code>) and the published-version key (e.g. <code>2016PhRvL.116f1102A</code>) are available. When used, they will both point to the same published version! If you write a document with citations to both, this will cause the same record to appear twice in your reference list (see the example file). To avoid the issue, always use the published-paper key if a published version is out. INSPIRE doesn&#8217;t have this problem, because they don&#8217;t change the citation key when a paper gets published.</p>
-</li>
-<li>
-<p>Multiple bibliographies are not allowed, only one <code>.bib</code> file per paper. I don&#8217;t plan to implement multiple bibliographies in here, because you&#8217;re not going to need them with this script: one paper, one bibliography, that&#8217;s all.</p>
-</li>
+<li><p>Treating arXiv e-prints with ADS is tricky. When an e-print gets published they change the database key, but make the old key point to the new version! For instance, the key switches from <code>2016arXiv160203837T</code> to <code>2016PhRvL.116f1102A</code>.  If you're citing an e-print which is not yet published, everything is fine: only the arXiv key (e.g. <code>2016arXiv160203837T</code>) is available and your reference list will show the arXiv version. If you're citing a paper that is published, both the e-print key (e.g. <code>2016arXiv160203837T</code>) and the published-version key (e.g. <code>2016PhRvL.116f1102A</code>) are available. When used, they will both point to the same published version! If you write a document with citations to both, this will cause the same record to appear twice in your reference list (see the example file). To avoid the issue, always use the published-paper key if a published version is out. INSPIRE doesn't have this problem, because they don't change the citation key when a paper gets published.</p></li>
+<li><p>Multiple bibliographies are not allowed, only one <code>.bib</code> file per paper. I don't plan to implement multiple bibliographies in here, because you're not going to need them with this script: one paper, one bibliography, that's all.</p></li>
 </ul>
+
 <h3>Manual installation from repository</h3>
-<p>If you don&#8217;t like pip (but why wouldn&#8217;t you? <a href="index.html?p=669">It&#8217;s great!</a>), you can install the code manually:</p>
+
+<p>If you don't like pip (but why wouldn't you? <a href="index.html?p=669">It's great!</a>), you can install the code manually:</p>
+
 <pre><code>git clone https://github.com/dgerosa/filltex.git # Clone repo
 cd filltex
 chmod +x bin/* # Make bin content executable
 PATH=$PATH:$(pwd)/bin # Add bin directory to path
-echo &quot;PATH=$PATH:$(pwd)/bin&quot; &gt;&gt; ${HOME}/.bashrc # To add the new path to your .bashrc    
+echo "PATH=$PATH:$(pwd)/bin" &gt;&gt; ${HOME}/.bashrc # To add the new path to your .bashrc    
 cp filltex.engine ~/Library/TeXshop/Engines/filltex.engine # To install the Texshop engine
 </code></pre>
-<p><code>filltex</code> uses <a href="http://app.uio.no/ifi/texcount">TexCount</a>, which is included in most Tex distribution. In case it&#8217;s not in yours, <a href="http://app.uio.no/ifi/texcount/faq.html#setup">here</a> you can find installation instruction.</p>
+
+<p><code>filltex</code> uses <a href="http://app.uio.no/ifi/texcount">TexCount</a>, which is included in most Tex distribution. In case it's not in yours, <a href="http://app.uio.no/ifi/texcount/faq.html#setup">here</a> you can find installation instruction.</p>
+
 <h2>References to filltex</h2>
+
 <ul>
 <li><code>filltex</code> is included in the <a href="https://inspirehep.net/info/hep/tools/index">suggested tools</a> from the INSPIRE team.</li>
 <li><code>filltex</code> is included the <a href="http://pages.uoregon.edu/koch/texshop/changes_3.html">official v3.80 release</a> of Texshop.</li>
 </ul>
+
 <h2>Credits</h2>
+
 <p>The code is developed and maintained by <a href="https://davidegerosa.com/filltex/www.davidegerosa.com">Davide Gerosa</a>. If you find bugs, want to contribute to this project (any help is welcome!) or need help with it, just open an issue here on GitHub. For anything else, feel free to drop me an email:</p>
+
 <pre><code>dgerosa@caltech.edu
 </code></pre>
+
 <p>The idea started from <a href="http://www.vallis.org/salon/">this</a> <code>python</code> course taught by <a href="http://www.vallis.org/">Michele Vallisneri</a> at Caltech (and in particular from <a href="http://www.vallis.org/salon/summary-2.html">this example</a>). We thank <a href="https://github.com/lnielsen">Lars Holm Nielsen</a>, reviewer for <a href="http://joss.theoj.org/">The Journal of Open Software</a>, for several suggestions which improved <code>filltex</code>. <a href="http://app.uio.no/ifi/texcount">TexCount</a> is developed by Einar Andreas Rodland. Useful info on the INSPIRE and ADS APIs are available <a href="https://inspirehep.net/info/hep/pub_list">here</a> and <a href="https://github.com/adsabs/adsabs-dev-api">here</a>.</p>
+
 <h2>Changes</h2>
+
 <p><strong>v1.0</strong>: Initial release, main functionalities.</p>
+
 <p><strong>v1.1</strong>: Version accepted in JOSS.</p>
+
 <p><strong>v1.2</strong>: Uploaded on pip.</p>
-<p><strong>v1.3</strong>: Compatible with new ADS &quot;Bumblebee&quot;</p>
-</div>
+
+<p><strong>v1.3</strong>: Compatible with new ADS "Bumblebee"</p>
+
+
+
+
+<p></p>
 		<div class="clear"></div>
 					</div><!--end entry-content-->
 	
@@ -378,7 +436,7 @@ Office: Physics West 223</div></aside>		<aside id="recent-posts-5" class="widget
 	
 </div><!-- end page -->
 <script type='text/javascript'>//<![CDATA[
-var Getwid={"settings":{"date_time_utc":"2020-05-24 07:01:13","google_api_key":""},"ajax_url":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"bdfd3d6dfa"}};
+var Getwid={"settings":{"date_time_utc":"2020-05-24 19:01:04","google_api_key":""},"ajax_url":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"66e5dc1e2b"}};
 //]]></script>
 <script type='text/javascript' src='wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1.5.4'></script>
 <script type='text/javascript' src='wp-content/themes/yoko/js/smoothscroll.js?ver=1.4'></script>

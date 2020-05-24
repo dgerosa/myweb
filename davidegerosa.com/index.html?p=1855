@@ -15,18 +15,19 @@
 	<meta name="robots" content="index, follow"/>
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-	<link rel="canonical" href="http://34.75.75.174/gwdet/"/>
+	<link rel="canonical" href="http://www.davidegerosa.com/gwdet/"/>
 	<meta property="og:locale" content="en_US"/>
 	<meta property="og:type" content="article"/>
 	<meta property="og:title" content="gwdet: Detectability of gravitational-wave signals from compact binary coalescences - Davide Gerosa"/>
-	<meta property="og:description" content="Check me out on github.com/dgerosa/gwdet. This is a short python module to compute the probability of detecting a gravitational-wave signal from compact binaries averaging over sky-location and source inclination. The detectability function is defined by Finn and Chernoff in arxiv:9301003 &hellip; Continue reading &rarr;"/>
-	<meta property="og:url" content="http://34.75.75.174/gwdet/"/>
+	<meta property="og:description" content="Check me out on github.com/dgerosa/gwdet."/>
+	<meta property="og:url" content="http://www.davidegerosa.com/gwdet/"/>
 	<meta property="og:site_name" content="Davide Gerosa"/>
+	<meta property="article:modified_time" content="2020-05-24T16:59:09+00:00"/>
 	<meta property="og:image" content="https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-1024x293.png"/>
 	<meta property="og:image:width" content="1024"/>
 	<meta property="og:image:height" content="293"/>
 	<meta name="twitter:card" content="summary_large_image"/>
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://davidegerosa.com/#website","url":"https://davidegerosa.com/","name":"Davide Gerosa","description":"","potentialAction":[{"@type":"SearchAction","target":"https://davidegerosa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://34.75.75.174/gwdet/#primaryimage","inLanguage":"en-US","url":"https://davidegerosa.com/wp-content/uploads/2018/09/columbus1.png","width":4032,"height":1152},{"@type":"WebPage","@id":"http://34.75.75.174/gwdet/#webpage","url":"http://34.75.75.174/gwdet/","name":"gwdet: Detectability of gravitational-wave signals from compact binary coalescences - Davide Gerosa","isPartOf":{"@id":"https://davidegerosa.com/#website"},"primaryImageOfPage":{"@id":"http://34.75.75.174/gwdet/#primaryimage"},"datePublished":"2018-08-20T01:39:36+00:00","dateModified":"2018-08-20T01:39:36+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://34.75.75.174/gwdet/"]}]}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://davidegerosa.com/#website","url":"https://davidegerosa.com/","name":"Davide Gerosa","description":"","potentialAction":[{"@type":"SearchAction","target":"https://davidegerosa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"http://www.davidegerosa.com/gwdet/#primaryimage","inLanguage":"en-US","url":"https://davidegerosa.com/wp-content/uploads/2018/09/columbus1.png","width":4032,"height":1152},{"@type":"WebPage","@id":"http://www.davidegerosa.com/gwdet/#webpage","url":"http://www.davidegerosa.com/gwdet/","name":"gwdet: Detectability of gravitational-wave signals from compact binary coalescences - Davide Gerosa","isPartOf":{"@id":"https://davidegerosa.com/#website"},"primaryImageOfPage":{"@id":"http://www.davidegerosa.com/gwdet/#primaryimage"},"datePublished":"2018-08-20T01:39:36+00:00","dateModified":"2020-05-24T16:59:09+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["http://www.davidegerosa.com/gwdet/"]}]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -136,7 +137,7 @@ var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":
 				</hgroup><!-- end site-title -->
 
 								<script data-pagespeed-no-defer>//<![CDATA[
-(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://davidegerosa.com/gwdet/','8Xxa2XQLv9',true,false,'m7YbAHzPAAE');
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://davidegerosa.com/gwdet/','8Xxa2XQLv9',true,false,'RVL496l9ahY');
 //]]></script><img width="1102" height="315" src="wp-content/uploads/2018/09/columbus1.png" class="headerimage wp-post-image" alt="" srcset="https://davidegerosa.com/wp-content/uploads/2018/09/columbus1.png 4032w, https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-300x86.png 300w, https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-1024x293.png 1024w, https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-768x219.png 768w, https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-1536x439.png 1536w, https://davidegerosa.com/wp-content/uploads/2018/09/columbus1-2048x585.png 2048w" sizes="(max-width: 1102px) 100vw, 1102px" data-pagespeed-url-hash="1395168152" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>			
 		<nav id="subnav">
 					</nav><!-- end subnav -->
@@ -156,33 +157,57 @@ var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":
 	</header><!--end page-entry-hader-->
 
 	<div class="single-entry-content">
-		<p>Check me out on <a href="https://github.com/dgerosa/gwdet">github.com/dgerosa/gwdet</a>.</p>
+		
+<p>Check me out on <a href="https://github.com/dgerosa/gwdet">github.com/dgerosa/gwdet</a>.</p>
+
+
+
 <p>This is a short python module to compute the probability of detecting a gravitational-wave signal from compact binaries averaging over sky-location and source inclination.</p>
-<p>The detectability function is defined by Finn and Chernoff in <a href="https://arxiv.org/abs/gr-qc/9301003">arxiv:9301003</a> as a function of the projection parameter Theta (their Eq. 3.31). Here however, we follow the notation of Dominik+ in <a href="https://arxiv.org/abs/1405.7016">arxiv:1405.7016</a>, which defined w= Theta/4 such that 0&lt;=ww) of the projection parameter w (see their Eq. A.1). This gives the probabilty that an elliptically polarized gravitational-wave signal (like that of a binary) will be detected taking into account the antenna pattern of the detector and the inclination of the source (here we consider a single detector, even if in the real world we deal with networks…).</p>
+
+<p>The detectability function is defined by Finn and Chernoff in <a href="https://arxiv.org/abs/gr-qc/9301003">arxiv:9301003</a> as a function of the projection parameter Theta (their Eq. 3.31). Here however, we follow the notation of Dominik+ in <a href="https://arxiv.org/abs/1405.7016">arxiv:1405.7016</a>, which defined w= Theta/4 such that 0&lt;=w&lt;=1. We are interested in the cumulative distribution P(>w) of the projection parameter w (see their Eq. A.1). This gives the probabilty that an elliptically polarized gravitational-wave signal (like that of a binary) will be detected taking into account the antenna pattern of the detector and the inclination of the source (here we consider a single detector, even if in the real world we deal with networks…).</p>
+
 <p>For a given (non-spinning) compact binary with masses m1 and m2 at redshift z, you first need to compute its signal-to-noise ratio snr_opt assuming optimal orientation and location  (i.e. the source is face on, overhead the detector). Then specify a threshold, say 8, above which you consider the signal detectable. The probabilty that a specific binary will be detected is just P(w=8/snr_opt).</p>
-<p>Right now this code can only handle non-spinning systems. I will generalize it to spinning sources, eventually (any help is very welcome! Send a me a pull request). It&#039;s python 2 only for now, sorry&#8230;</p>
-<h3>Cite me&#8230;</h3>
+
+<p>Right now this code can only handle non-spinning systems. I will generalize it to spinning sources, eventually (any help is very welcome! Send a me a pull request).</p>
+
+<h3>Cite me...</h3>
+
 <p>If you use this software in a scientific publication, I kindly ask you to cite its DOI:   <a href="https://zenodo.org/badge/latestdoi/103295136"><img src="https://zenodo.org/badge/103295136.svg" alt="DOI" data-pagespeed-url-hash="1148214369" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></p>
-<p>This code is developed and maintained by <a href="https://davidegerosa.com/">Davide Gerosa</a>. To report bugs, please open an issue on GitHub. If you want to contact me, it&#039;s <code>dgerosa@caltech.edu</code>.</p>
+
+<p>This code is developed and maintained by <a href="https://davidegerosa.com/">Davide Gerosa</a>. To report bugs, please open an issue on GitHub. If you want to contact me, it's <code>dgerosa@caltech.edu</code>.</p>
+
 <h3>Results</h3>
+
 <p><code>gwdet</code> has been used in the following papers:</p>
+
 <ul>
 <li>Taylor and Gerosa (2018) <a href="https://arxiv.org/abs/1808.02491">arXiv:1808.02491</a></li>
 <li>Gerosa et al. (2018) <a href="https://arxiv.org/abs/1808.02491">arXiv:1808.02491</a></li>
 </ul>
+
 <h2>Installation and checkpoints</h2>
+
 <p>You can install this module using pip</p>
+
 <pre><code>pip install gwdet
 </code></pre>
+
 <p>Dependancies include <code>numpy</code>, <code>scipy</code>,<code>matplotlib</code>,<code>astropy</code>,<code>requests</code> and <code>pathos</code> will be installed automatically if not present. The LIGO software <code>lal</code> and <code>pycbc</code> are needed to use this code with values other than the default ones (see <a href="index.html?p=1563">here</a> for a short guide I wrote).</p>
+
 <p>If you limit yourself to the default values, I provide some checkpoints files which let you use the code without installing any LIGO software. In any case, even if you have <code>lal</code>, dowloading these checkpoints will save you a lot of computational time. When you use the code with defaults parameters for the first time, a message like the following will be printed out:</p>
+
 <pre><code>[gwdet] You are using defaults values. You can download this interpolant. Use:
     curl ....
 </code></pre>
+
 <p>To download the checkpoints, just execute that whole command starting with <code>curl</code>.  There are two checkpoint files of ~5MB and ~200MB. Note that these files <em>will not be removed</em>  if you uninstall the module via <code>pip uninstall</code> , you will need to remove them manually. If you install <code>gwdet</code> in a virtual environment, these checkpoint files will live in the environment directory and will be removed when/if you delete the environment.</p>
+
 <h2>Usage</h2>
+
 <p>This code has two classes only, <code>averageangles</code> and <code>detectability</code>. You first need to create an instance of each class and then use them.</p>
+
 <p>The default usage is</p>
+
 <pre><code>p=gwdet.averageangles()
 w=0.5 # Projection parameter
 print(p(w)) # Fraction of detectabile sources
@@ -193,16 +218,21 @@ m2=10. # Component mass in Msun
 z=0.1  # Redshift
 print(p(m1,m2,z))  # Fraction of detectabile sources
 </code></pre>
+
 <h3>averageangles</h3>
+
 <p>Compute the detection probability, averaged over all angles (sky location, polarization, inclination, etc), as a function of the projection parameter w.</p>
+
 <pre><code>p = averageangles(  directory=os.path.dirname(__file__), 
                 binfile=None, 
                 mcn=int(1e8), 
                 mcbins=int(1e5) )
 
-det = p(w) # with 0&amp;lt;=w&amp;lt;=1
+det = p(w) # with 0&lt;=w&lt;=1
 </code></pre>
+
 <h5><strong>Parameters</strong>:</h5>
+
 <ul>
 <li><code>directory</code>: where checkpoints are stored (default is the module location)</li>
 <li><code>binfile</code>: checkpoint file (if <code>None</code> computed from other kwargs)</li>
@@ -210,17 +240,22 @@ det = p(w) # with 0&amp;lt;=w&amp;lt;=1
 <li><code>mcbins</code>: resolution parameter (number of interpolated bins)</li>
 <li><code>w</code>: projection parameter 0&lt;=w&lt;=1, see arxiv:1405.7016 (can be float or array)</li>
 </ul>
+
 <h5><strong>Returns</strong>:</h5>
+
 <ul>
 <li><code>det</code>: GW detectability (float or array)</li>
 </ul>
+
 <h3>detectability</h3>
+
 <p>Compute the detection probability of a non-spinning compact binary.</p>
+
 <pre><code>p = detectability(  directory=os.path.dirname(__file__), 
                 binfile=None, 
                 binfilepdet=None,
-                approximant=&#039;IMRPhenomD&#039;,
-                psd=&#039;aLIGOZeroDetHighPower&#039;,
+                approximant='IMRPhenomD',
+                psd='aLIGOZeroDetHighPower',
                 flow=10.,
                 deltaf=1./40.,
                 snrthreshold=8.,
@@ -236,7 +271,9 @@ det = p(w) # with 0&amp;lt;=w&amp;lt;=1
 
 det = p(m1,m2,z)
 </code></pre>
+
 <h5>Parameters:</h5>
+
 <ul>
 <li><code>directory</code>: where checkpoints are stored (default is the module location)</li>
 <li><code>binfile</code>: checkpoint file (if None computed from other kwargs)</li>
@@ -257,19 +294,33 @@ det = p(m1,m2,z)
 <li><code>m2</code>: component mass in Msun (can be float or array)</li>
 <li><code>z</code>: redshift (can be float or array)</li>
 </ul>
+
 <h5>Returns:</h5>
+
 <ul>
 <li><code>det</code>: GW detectability (float or array)</li>
 </ul>
+
 <h2>Checks and performance</h2>
-<p>Here I first compare the performance of the P(w) interpolator implemented in <code>averageangles</code> against public data from <a href="http://www.phy.olemiss.edu/~berti/research/">Emanuele Berti&#039;s website</a>. The agreement is excellent and the residuals are just numerical noise. This plot can be generated with:</p>
+
+<p>Here I first compare the performance of the P(w) interpolator implemented in <code>averageangles</code> against public data from <a href="http://www.phy.olemiss.edu/~berti/research/">Emanuele Berti's website</a>. The agreement is excellent and the residuals are just numerical noise. This plot can be generated with:</p>
+
 <pre><code>gwdet.compare_Pw()
 </code></pre>
+
 <p><img src="https://user-images.githubusercontent.com/7237041/30345791-54f23092-97bb-11e7-8327-1a6531a1437a.png" alt="compare_pw" data-pagespeed-url-hash="2724425486" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></p>
+
 <p>Seconly, I compare the perfomance of the P(m1,m2,z) interpolator of <code>detectability</code> against 1000 bruce force SNR computations from <code>lal</code>. Altough occasional mismathces of 3% are found, the median residuals are as small as ~1e-5. This plot can be generated with:</p>
+
 <pre><code>gwdet.compare_Psnr()
 </code></pre>
+
 <p><img src="https://user-images.githubusercontent.com/7237041/30341935-c3bd36e8-97ac-11e7-947d-ac06dae3bedb.png" alt="compare_psnr" data-pagespeed-url-hash="1719297109" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></p>
+
+
+
+
+<p></p>
 		<div class="clear"></div>
 					</div><!--end entry-content-->
 	
@@ -380,7 +431,7 @@ Office: Physics West 223</div></aside>		<aside id="recent-posts-5" class="widget
 	
 </div><!-- end page -->
 <script type='text/javascript'>//<![CDATA[
-var Getwid={"settings":{"date_time_utc":"2020-05-24 07:01:05","google_api_key":""},"ajax_url":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"bdfd3d6dfa"}};
+var Getwid={"settings":{"date_time_utc":"2020-05-24 19:00:56","google_api_key":""},"ajax_url":"https:\/\/davidegerosa.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"66e5dc1e2b"}};
 //]]></script>
 <script type='text/javascript' src='wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1.5.4'></script>
 <script type='text/javascript' src='wp-content/themes/yoko/js/smoothscroll.js?ver=1.4'></script>
