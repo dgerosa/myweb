@@ -15,9 +15,16 @@
 <style type="text/css">body{margin:0;padding:0}</style>
 
 
-<!--[if gte IE 10]><!--><script type="text/javascript" src="https://davidegerosa.com/cdn-cgi/scripts/zepto.min.js"></script><!--<![endif]-->
-<!--[if gte IE 10]><!--><script type="text/javascript" src="https://davidegerosa.com/cdn-cgi/scripts/cf.common.js"></script><!--<![endif]-->
-
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
 
 
 </head>
@@ -34,7 +41,7 @@
         <div class="cf-columns two">
           <div class="cf-column">
             <p>The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. <strong>You must enable Javascript in your browser in order to decode the e-mail address</strong>.</p>
-            <p>If you have a website and are interested in protecting it in a similar way, you can <a href="https://www.cloudflare.com/sign-up?utm_source=email_protection">sign up for Cloudflare</a>.</p>
+            <p>If you have a website and are interested in protecting it in a similar way, you can <a rel="noopener noreferrer" href="https://www.cloudflare.com/sign-up?utm_source=email_protection">sign up for Cloudflare</a>.</p>
           </div>
 
           <div class="cf-column">
@@ -42,8 +49,8 @@
               <div class="rail">
                   <div class="panel">
                       <ul class="nobullets">
-                        <li><a class="modal-link-faq" href="https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-">How does Cloudflare protect email addresses on website from spammers?</a></li>
-                        <li><a class="modal-link-faq" href="https://support.cloudflare.com/hc/en-us/categories/200275218-Getting-Started">Can I sign up for Cloudflare?</a></li>
+                        <li><a rel="noopener noreferrer" class="modal-link-faq" href="https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-">How does Cloudflare protect email addresses on website from spammers?</a></li>
+                        <li><a rel="noopener noreferrer" class="modal-link-faq" href="https://support.cloudflare.com/hc/en-us/categories/200275218-Getting-Started">Can I sign up for Cloudflare?</a></li>
                     </ul>
                 </div>
               </div>
@@ -52,13 +59,13 @@
         </div>
       </div><!-- /.section -->
 
-      <div class="cf-error-footer cf-wrapper">
-  <p>
-    <span class="cf-footer-item">Cloudflare Ray ID: <strong>59f87edbffbc04e3</strong></span>
-    <span class="cf-footer-separator">&bull;</span>
-    <span class="cf-footer-item"><span>Your IP</span>: 131.215.198.188</span>
-    <span class="cf-footer-separator">&bull;</span>
-    <span class="cf-footer-item"><span>Performance &amp; security by</span> <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare</a></span>
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">5f452e07f8cf008d</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 194.53.187.208</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
     
   </p>
 </div><!-- /.error-footer -->
