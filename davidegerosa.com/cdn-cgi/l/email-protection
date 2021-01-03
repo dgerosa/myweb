@@ -59,23 +59,13 @@
         </div>
       </div><!-- /.section -->
 
-<<<<<<< HEAD
       <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">5f452e07f8cf008d</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">60bc4af4fa5fe4dd</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
-    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 194.53.187.208</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 131.215.198.188</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-=======
-      <div class="cf-error-footer cf-wrapper">
-  <p>
-    <span class="cf-footer-item">Cloudflare Ray ID: <strong>5a322cacf9ffeb3d</strong></span>
-    <span class="cf-footer-separator">&bull;</span>
-    <span class="cf-footer-item"><span>Your IP</span>: 131.215.198.188</span>
-    <span class="cf-footer-separator">&bull;</span>
-    <span class="cf-footer-item"><span>Performance &amp; security by</span> <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare</a></span>
->>>>>>> Automatic cron update
     
   </p>
 </div><!-- /.error-footer -->
