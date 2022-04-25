@@ -7,12 +7,12 @@
 <title>Email Protection | Cloudflare</title>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <meta name="robots" content="noindex, nofollow" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="https://davidegerosa.com/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
-<style type="text/css">body{margin:0;padding:0}</style>
+<link rel="stylesheet" id="cf_styles-css" href="https://davidegerosa.com/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
 
 
 <!--[if gte IE 10]><!-->
@@ -61,7 +61,7 @@
 
       <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6fdad5f2599a7ee3</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">701483985f4d7bec</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 131.215.198.188</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
@@ -74,7 +74,7 @@
     </div><!-- /#cf-error-details -->
   </div><!-- /#cf-wrapper -->
 
-  <script type="text/javascript">
+  <script>
   window._cf_translation = {};
   
   
