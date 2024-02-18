@@ -1,0 +1,1 @@
+!function(){"use strict";document.addEventListener("DOMContentLoaded",(function(){const t=document.querySelectorAll(".coblocks-gist__container");for(let e=0;e<t.length;e++)t[e].style.pointerEvents="all"}))}();
