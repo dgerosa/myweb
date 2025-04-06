@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Davide Gerosa's articles on arXiv</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="https://arxiv.org/stylesheets/arXivCat.css?date=20250228" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://arxiv.org/stylesheets/arXivCat.css?date=20250331" />
   
  </head>
  <body>
@@ -50,7 +50,36 @@
 
 <dl>
 
-<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.17325" title="Abstract">arXiv:2410.17325</a> [<a href="https://arxiv.org/pdf/2410.17325" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.17325" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.07519" title="Abstract">arXiv:2409.07519</a> [<a href="https://arxiv.org/pdf/2409.07519" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.07519" title="Other formats">other</a>]</span></dt>
+<dd>
+<div class="meta">
+<div class="list-title mathjax">
+<span class="descriptor">Title:</span> Which is which? Identification of the two compact objects in  gravitational-wave binaries
+</div>
+<div class="list-authors">
+<span class="descriptor">Authors:</span> 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=De+Renzis%2C+V">Viola De Renzis</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Tettoni%2C+F">Federica Tettoni</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Mould%2C+M">Matthew Mould</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Vecchio%2C+A">Alberto Vecchio</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Pacilio%2C+C">Costantino Pacilio</a>
+</div>
+<div class="list-comments mathjax">
+<span class="descriptor">Comments:</span> 5 pages, 3 figures + appendices
+</div>
+<div class="list-journal-ref">
+<span class="descriptor">Journal-ref:</span> Phys. Rev. Lett. 134, 121402 (2025)
+</div>
+<div class="list-subjects">
+<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; High Energy Astrophysical Phenomena (astro-ph.HE)
+
+</div>
+</div>
+</dd>
+</div>
+
+<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.17325" title="Abstract">arXiv:2410.17325</a> [<a href="https://arxiv.org/pdf/2410.17325" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.17325" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -78,7 +107,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -100,7 +129,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.11823" title="Abstract">arXiv:2502.11823</a> [<a href="https://arxiv.org/pdf/2502.11823" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.11823" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[4] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.11823" title="Abstract">arXiv:2502.11823</a> [<a href="https://arxiv.org/pdf/2502.11823" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.11823" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -122,7 +151,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[4] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.06952" title="Abstract">arXiv:2502.06952</a> [<a href="https://arxiv.org/pdf/2502.06952" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.06952" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[5] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.06952" title="Abstract">arXiv:2502.06952</a> [<a href="https://arxiv.org/pdf/2502.06952" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.06952" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -146,7 +175,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[5] <span class="list-identifier"><a href="https://arxiv.org/abs/2501.17233" title="Abstract">arXiv:2501.17233</a> [<a href="https://arxiv.org/pdf/2501.17233" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2501.17233" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[6] <span class="list-identifier"><a href="https://arxiv.org/abs/2501.17233" title="Abstract">arXiv:2501.17233</a> [<a href="https://arxiv.org/pdf/2501.17233" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2501.17233" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -172,7 +201,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[6] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.13011" title="Abstract">arXiv:2409.13011</a> [<a href="https://arxiv.org/pdf/2409.13011" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.13011" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[7] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.13011" title="Abstract">arXiv:2409.13011</a> [<a href="https://arxiv.org/pdf/2409.13011" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.13011" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -201,7 +230,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[7] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.15439" title="Abstract">arXiv:2409.15439</a> [<a href="https://arxiv.org/pdf/2409.15439" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.15439" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[8] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.15439" title="Abstract">arXiv:2409.15439</a> [<a href="https://arxiv.org/pdf/2409.15439" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.15439" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -228,7 +257,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[8] <span class="list-identifier"><a href="https://arxiv.org/abs/2403.00066" title="Abstract">arXiv:2403.00066</a> [<a href="https://arxiv.org/pdf/2403.00066" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2403.00066" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[9] <span class="list-identifier"><a href="https://arxiv.org/abs/2403.00066" title="Abstract">arXiv:2403.00066</a> [<a href="https://arxiv.org/pdf/2403.00066" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2403.00066" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -248,7 +277,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[9] <span class="list-identifier"><a href="https://arxiv.org/abs/2408.05276" title="Abstract">arXiv:2408.05276</a> [<a href="https://arxiv.org/pdf/2408.05276" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2408.05276" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[10] <span class="list-identifier"><a href="https://arxiv.org/abs/2408.05276" title="Abstract">arXiv:2408.05276</a> [<a href="https://arxiv.org/pdf/2408.05276" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2408.05276" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -275,7 +304,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[10] <span class="list-identifier"><a href="https://arxiv.org/abs/2404.10048" title="Abstract">arXiv:2404.10048</a> [<a href="https://arxiv.org/pdf/2404.10048" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2404.10048" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[11] <span class="list-identifier"><a href="https://arxiv.org/abs/2404.10048" title="Abstract">arXiv:2404.10048</a> [<a href="https://arxiv.org/pdf/2404.10048" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2404.10048" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -308,7 +337,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[11] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.08263" title="Abstract">arXiv:2410.08263</a> [<a href="https://arxiv.org/pdf/2410.08263" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.08263" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[12] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.08263" title="Abstract">arXiv:2410.08263</a> [<a href="https://arxiv.org/pdf/2410.08263" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.08263" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -335,7 +364,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[12] <span class="list-identifier"><a href="https://arxiv.org/abs/2405.14945" title="Abstract">arXiv:2405.14945</a> [<a href="https://arxiv.org/pdf/2405.14945" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2405.14945" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[13] <span class="list-identifier"><a href="https://arxiv.org/abs/2405.14945" title="Abstract">arXiv:2405.14945</a> [<a href="https://arxiv.org/pdf/2405.14945" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2405.14945" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -358,32 +387,6 @@
 </div>
 <div class="list-subjects">
 <span class="descriptor">Subjects:</span> <span class="primary-subject">High Energy Astrophysical Phenomena (astro-ph.HE)</span>; General Relativity and Quantum Cosmology (gr-qc)
-
-</div>
-</div>
-</dd>
-</div>
-
-<div class="mathjax"><dt>[13] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.07519" title="Abstract">arXiv:2409.07519</a> [<a href="https://arxiv.org/pdf/2409.07519" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.07519" title="Other formats">other</a>]</span></dt>
-<dd>
-<div class="meta">
-<div class="list-title mathjax">
-<span class="descriptor">Title:</span> Which is which? Identification of the two compact objects in  gravitational-wave binaries
-</div>
-<div class="list-authors">
-<span class="descriptor">Authors:</span> 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=De+Renzis%2C+V">Viola De Renzis</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Tettoni%2C+F">Federica Tettoni</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Mould%2C+M">Matthew Mould</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Vecchio%2C+A">Alberto Vecchio</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Pacilio%2C+C">Costantino Pacilio</a>
-</div>
-<div class="list-comments mathjax">
-<span class="descriptor">Comments:</span> 5 pages, 3 figures + appendices
-</div>
-<div class="list-subjects">
-<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; High Energy Astrophysical Phenomena (astro-ph.HE)
 
 </div>
 </div>
