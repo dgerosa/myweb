@@ -50,7 +50,29 @@
 
 <dl>
 
-<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.17021" title="Abstract">arXiv:2504.17021</a> [<a href="https://arxiv.org/pdf/2504.17021" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.17021" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
+<dd>
+<div class="meta">
+<div class="list-title mathjax">
+<span class="descriptor">Title:</span> Sampling the full hierarchical population posterior distribution in  gravitational-wave astronomy
+</div>
+<div class="list-authors">
+<span class="descriptor">Authors:</span> 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Mancarella%2C+M">Michele Mancarella</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>
+</div>
+<div class="list-comments mathjax">
+<span class="descriptor">Comments:</span> 9+1 pages, 4+1 figures. v2/v3: match version accepted on PRD
+</div>
+<div class="list-subjects">
+<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; Cosmology and Nongalactic Astrophysics (astro-ph.CO); High Energy Astrophysical Phenomena (astro-ph.HE); Instrumentation and Methods for Astrophysics (astro-ph.IM); Data Analysis, Statistics and Probability (physics.data-an)
+
+</div>
+</div>
+</dd>
+</div>
+
+<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.17021" title="Abstract">arXiv:2504.17021</a> [<a href="https://arxiv.org/pdf/2504.17021" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.17021" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -74,7 +96,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.10482" title="Abstract">arXiv:2504.10482</a> [<a href="https://arxiv.org/pdf/2504.10482" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.10482" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.10482" title="Abstract">arXiv:2504.10482</a> [<a href="https://arxiv.org/pdf/2504.10482" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.10482" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -92,28 +114,6 @@
 </div>
 <div class="list-subjects">
 <span class="descriptor">Subjects:</span> <span class="primary-subject">Cosmology and Nongalactic Astrophysics (astro-ph.CO)</span>; General Relativity and Quantum Cosmology (gr-qc)
-
-</div>
-</div>
-</dd>
-</div>
-
-<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
-<dd>
-<div class="meta">
-<div class="list-title mathjax">
-<span class="descriptor">Title:</span> Sampling the full hierarchical population posterior distribution in  gravitational-wave astronomy
-</div>
-<div class="list-authors">
-<span class="descriptor">Authors:</span> 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Mancarella%2C+M">Michele Mancarella</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>
-</div>
-<div class="list-comments mathjax">
-<span class="descriptor">Comments:</span> 9+1 pages, 4+1 figures. v2: matches version accepted on PRD
-</div>
-<div class="list-subjects">
-<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; Cosmology and Nongalactic Astrophysics (astro-ph.CO); High Energy Astrophysical Phenomena (astro-ph.HE); Instrumentation and Methods for Astrophysics (astro-ph.IM); Data Analysis, Statistics and Probability (physics.data-an)
 
 </div>
 </div>
