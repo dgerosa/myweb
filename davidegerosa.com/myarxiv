@@ -50,7 +50,32 @@
 
 <dl>
 
-<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[1] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.11823" title="Abstract">arXiv:2502.11823</a> [<a href="https://arxiv.org/pdf/2502.11823" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.11823" title="Other formats">other</a>]</span></dt>
+<dd>
+<div class="meta">
+<div class="list-title mathjax">
+<span class="descriptor">Title:</span> Scalable data-analysis framework for long-duration gravitational waves  from compact binaries using short Fourier transforms
+</div>
+<div class="list-authors">
+<span class="descriptor">Authors:</span> 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Tenorio%2C+R">Rodrigo Tenorio</a>, 
+<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>
+</div>
+<div class="list-comments mathjax">
+<span class="descriptor">Comments:</span> 13 pages, 4 figures
+</div>
+<div class="list-journal-ref">
+<span class="descriptor">Journal-ref:</span> Phys. Rev. D 111, 104044 (2025)
+</div>
+<div class="list-subjects">
+<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; High Energy Astrophysical Phenomena (astro-ph.HE); Instrumentation and Methods for Astrophysics (astro-ph.IM); Data Analysis, Statistics and Probability (physics.data-an)
+
+</div>
+</div>
+</dd>
+</div>
+
+<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.12156" title="Abstract">arXiv:2502.12156</a> [<a href="https://arxiv.org/pdf/2502.12156" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.12156" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -72,7 +97,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[2] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.17021" title="Abstract">arXiv:2504.17021</a> [<a href="https://arxiv.org/pdf/2504.17021" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.17021" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.17021" title="Abstract">arXiv:2504.17021</a> [<a href="https://arxiv.org/pdf/2504.17021" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.17021" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -96,7 +121,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[3] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.10482" title="Abstract">arXiv:2504.10482</a> [<a href="https://arxiv.org/pdf/2504.10482" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.10482" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[4] <span class="list-identifier"><a href="https://arxiv.org/abs/2504.10482" title="Abstract">arXiv:2504.10482</a> [<a href="https://arxiv.org/pdf/2504.10482" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2504.10482" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -120,7 +145,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[4] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.07519" title="Abstract">arXiv:2409.07519</a> [<a href="https://arxiv.org/pdf/2409.07519" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.07519" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[5] <span class="list-identifier"><a href="https://arxiv.org/abs/2409.07519" title="Abstract">arXiv:2409.07519</a> [<a href="https://arxiv.org/pdf/2409.07519" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2409.07519" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -149,7 +174,7 @@
 </dd>
 </div>
 
-<div class="mathjax"><dt>[5] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.17325" title="Abstract">arXiv:2410.17325</a> [<a href="https://arxiv.org/pdf/2410.17325" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.17325" title="Other formats">other</a>]</span></dt>
+<div class="mathjax"><dt>[6] <span class="list-identifier"><a href="https://arxiv.org/abs/2410.17325" title="Abstract">arXiv:2410.17325</a> [<a href="https://arxiv.org/pdf/2410.17325" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2410.17325" title="Other formats">other</a>]</span></dt>
 <dd>
 <div class="meta">
 <div class="list-title mathjax">
@@ -171,28 +196,6 @@
 </div>
 <div class="list-subjects">
 <span class="descriptor">Subjects:</span> <span class="primary-subject">High Energy Astrophysical Phenomena (astro-ph.HE)</span>; General Relativity and Quantum Cosmology (gr-qc)
-
-</div>
-</div>
-</dd>
-</div>
-
-<div class="mathjax"><dt>[6] <span class="list-identifier"><a href="https://arxiv.org/abs/2502.11823" title="Abstract">arXiv:2502.11823</a> [<a href="https://arxiv.org/pdf/2502.11823" title="Download PDF">pdf</a>, <a href="https://arxiv.org/format/2502.11823" title="Other formats">other</a>]</span></dt>
-<dd>
-<div class="meta">
-<div class="list-title mathjax">
-<span class="descriptor">Title:</span> SFTs: a scalable data-analysis framework for long-duration  gravitational-wave signals
-</div>
-<div class="list-authors">
-<span class="descriptor">Authors:</span> 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Tenorio%2C+R">Rodrigo Tenorio</a>, 
-<a href="https://arxiv.org/search/gr-qc?searchtype=author&amp;query=Gerosa%2C+D">Davide Gerosa</a>
-</div>
-<div class="list-comments mathjax">
-<span class="descriptor">Comments:</span> 13 pages, 5 figures
-</div>
-<div class="list-subjects">
-<span class="descriptor">Subjects:</span> <span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; High Energy Astrophysical Phenomena (astro-ph.HE); Instrumentation and Methods for Astrophysics (astro-ph.IM); Data Analysis, Statistics and Probability (physics.data-an)
 
 </div>
 </div>
