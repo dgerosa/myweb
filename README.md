@@ -1,6 +1,6 @@
-# old_website
+# old-website
 
-These are static backups of my old website, which was developed with wordpress.
+Here I stored some static backups of my old website, which was developed with wordpress.
 
 
 The new one lives at [github.com/dgerosa/website](https://github.com/dgerosa/website) and is deployed at
